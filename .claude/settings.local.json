@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(git --version)",
+      "Bash(where node:*)",
+      "Bash(where npm:*)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/Sam/Desktop/Blue Collective/$HOME/AppData/Roaming/**)",
+      "Read(//c/Program Files/nodejs/**)",
+      "Bash(winget install:*)",
+      "Bash(\"/c/Program Files/nodejs/node.exe\" --version)",
+      "Bash(\"/c/Program Files/nodejs/npm.cmd\" --version)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\" cd \"C:/Users/Sam/Desktop/Blue Collective\" npm install @supabase/supabase-js @supabase/ssr)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\" cd \"C:/Users/Sam/Desktop/Blue Collective\" npm run build)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(npm run:*)"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "crons": [
+    { "path": "/api/cron/sync-fixtures", "schedule": "0 6 * * *" },
+    { "path": "/api/cron/sync-squad", "schedule": "0 4 * * 1" },
+    { "path": "/api/cron/sync-lineups", "schedule": "*/15 * * * *" }
+  ]
+}
