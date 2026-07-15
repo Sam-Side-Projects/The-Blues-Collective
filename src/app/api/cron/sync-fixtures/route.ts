@@ -80,19 +80,26 @@ export async function GET(req: Request) {
     const table = data.standings?.find((s: { type: string }) => s.type === "TOTAL");
     const entries: StandingRow[] = table?.table ?? [];
 
-    const rows = entries.map((r) => ({
-      position: r.position,
-      team: r.team?.name ?? "TBC",
-      played: r.playedGames ?? 0,
-      won: r.won ?? 0,
-      drawn: r.draw ?? 0,
-      lost: r.lost ?? 0,
-      goals_for: r.goalsFor ?? 0,
-      goals_against: r.goalsAgainst ?? 0,
-      goal_diff: r.goalDifference ?? 0,
-      points: r.points ?? 0,
-      updated_at: new Date().toISOString(),
-    }));
+    // Dedupe by position: `position` is the primary key, so two rows sharing it
+    // in one upsert batch would error ("cannot affect row a second time").
+    const byPosition = new Map<number, Record<string, unknown>>();
+    for (const r of entries) {
+      if (r.position == null) continue;
+      byPosition.set(r.position, {
+        position: r.position,
+        team: r.team?.name ?? "TBC",
+        played: r.playedGames ?? 0,
+        won: r.won ?? 0,
+        drawn: r.draw ?? 0,
+        lost: r.lost ?? 0,
+        goals_for: r.goalsFor ?? 0,
+        goals_against: r.goalsAgainst ?? 0,
+        goal_diff: r.goalDifference ?? 0,
+        points: r.points ?? 0,
+        updated_at: new Date().toISOString(),
+      });
+    }
+    const rows = [...byPosition.values()];
 
     if (rows.length > 0) {
       const { error } = await admin.from("league_table").upsert(rows, { onConflict: "position" });
