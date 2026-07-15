@@ -33,11 +33,13 @@ export async function GET(req: Request) {
   const admin = createAdminClient();
   const headers = { "x-apisports-key": key };
 
-  // Our fixtures kicking off within the next 2h or started in the last 3h, and
-  // that don't already have a confirmed lineup stored.
+  // Fixtures from the last ~30h up to the next 3h that don't already have a
+  // confirmed lineup stored. The wide look-back means the once-a-day cron (all
+  // that Vercel's free plan allows) still catches a match played earlier today
+  // and scores it after the fact.
   const now = Date.now();
-  const from = new Date(now - 3 * 60 * 60 * 1000).toISOString();
-  const to = new Date(now + 2 * 60 * 60 * 1000).toISOString();
+  const from = new Date(now - 30 * 60 * 60 * 1000).toISOString();
+  const to = new Date(now + 3 * 60 * 60 * 1000).toISOString();
 
   const { data: fixtures } = await admin
     .from("fixtures")

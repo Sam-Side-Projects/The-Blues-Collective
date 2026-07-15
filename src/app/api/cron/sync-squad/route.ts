@@ -6,7 +6,10 @@
  * Market values are NOT touched here — those stay hand-maintained in
  * data/market-values.json. We only sync names / positions / shirt numbers.
  *
- * Trigger: Vercel Cron (see vercel.json). Protected by CRON_SECRET.
+ * Not on the daily schedule (Vercel's free plan allows only 2 cron jobs, used
+ * for fixtures + lineups). Squads only change in transfer windows, so the owner
+ * triggers this by hand when needed: visit /api/cron/sync-squad?key=CRON_SECRET.
+ * Protected by CRON_SECRET.
  */
 import { NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/server";
