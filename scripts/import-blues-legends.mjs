@@ -210,18 +210,14 @@ function buildRecords(players) {
         for (const s of clampSeasons(firstSeasonYear(start), lastSeasonYear(end)))
           seasonSet.add(s);
       } else if (start && !end) {
-        // No end date. If they joined recently, assume still at the club.
+        // No end date. In Wikidata, an open-ended team membership means the
+        // player is STILL at the club, so we extend through the current season.
+        // We always flag it for review in case it's really just a missing end
+        // date on a player who has since left (rarer, but it happens).
+        hadUsableDates = true;
+        missingEndSpell = true;
         const fsy = firstSeasonYear(start);
-        const recent = start.year >= NOW.getFullYear() - 4;
-        if (recent) {
-          hadUsableDates = true;
-          for (const s of clampSeasons(fsy, MAX_SEASON_YEAR)) seasonSet.add(s);
-        } else {
-          // Only record the one season we know is true; flag for review.
-          hadUsableDates = true;
-          missingEndSpell = true;
-          for (const s of clampSeasons(fsy, fsy)) seasonSet.add(s);
-        }
+        for (const s of clampSeasons(fsy, MAX_SEASON_YEAR)) seasonSet.add(s);
       } else if (!start && end) {
         // End but no start — we can't build a range. Record nothing, flag it.
         missingEndSpell = true;

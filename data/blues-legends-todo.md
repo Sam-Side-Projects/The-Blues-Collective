@@ -20,26 +20,28 @@ Wikidata has no position for these players, so they have no slot. They won't app
 - Genesis Antwi
 - Charlie Brown
 
-## Position unclear (16)
+## Position unclear (18)
 
 Wikidata listed a position we couldn't map onto GK/CB/CM/AM/ST. Please pick the right slot(s).
 
 - Eddie Newton — Wikidata says: wing half
 - Joao Rodríguez — Wikidata says: wing half
+- Filipe Morais — Wikidata says: wing half
 - Boudewijn Zenden — Wikidata says: wing half
 - Victor Moses — Wikidata says: wing half
 - Jesper Grønkjær — Wikidata says: wing half
 - Gaël Kakuta — Wikidata says: wing half
 - Josh McEachran — Wikidata says: wing half
-- James Younghusband — Wikidata says: wing half
-- Filipe Morais — Wikidata says: wing half
 - Salomon Kalou — Wikidata says: wing half
+- James Younghusband — Wikidata says: wing half
+- Eric Parsons — Wikidata says: wing half
 - Damien Duff — Wikidata says: wing half
 - Jacopo Sala — Wikidata says: wing half
 - Alejandro Garnacho — Wikidata says: wing half
-- Charly Musonda — Wikidata says: wing half
 - Willian — Wikidata says: wing half
 - David Rocastle — Wikidata says: midpoint
+- Sam Irving — Wikidata says: wing half
+- Charly Musonda — Wikidata says: wing half
 
 ## No usable dates (89)
 
@@ -56,6 +58,10 @@ No start/end dates, so we couldn't work out which seasons they played. They were
 - Sunday Olayemi
 - Esther Agbaje
 - Ibrahim Oreagba
+- Mike Adams
+- Hugh Wales
+- Ola Aina
+- Jay Dasilva
 - Charlie Colkett
 - Dion Conroy
 - Ruben Sammut
@@ -64,18 +70,14 @@ No start/end dates, so we couldn't work out which seasons they played. They were
 - David Cameron
 - Harry Smith
 - William Steer
+- Stan Edwards
+- Eric Oakton
+- Billy Sperrin
 - Kano
 - Sam Millington
 - Aisultan Nazarbayev
 - Bradley Collins
 - Ike Ugbo
-- Mike Adams
-- Hugh Wales
-- Ola Aina
-- Jay Dasilva
-- Stan Edwards
-- Eric Oakton
-- Billy Sperrin
 - Alan Wilks
 - Alfred Bower
 - Allan Craig
@@ -108,21 +110,23 @@ No start/end dates, so we couldn't work out which seasons they played. They were
 - Álvaro Fernández
 - Calum McFarlane
 - Mathis Eboué
+- Ron Gingell
+- Tom Baxter
 - Isaac Olusola Akindutire
 - Ajayi Vincent olusesi Bennett
 - Johnson Adetunji olanipekun
 - Adeagbo David Ibikunle
 - Lola Brown
 - Ria Bose
-- Bob Edwards
+- Tom Hewitt
+- Dick Foss
+- Bobby Russell
 - John Tennant
 - Jesse Starkey
 - Joseph Hughes
 - George McEachran
 - Stephen Wilkins
-- Tom Hewitt
-- Dick Foss
-- Bobby Russell
+- Bob Edwards
 - Dick Whittaker
 - Jimmy Dykes
 - Sandy Baltimore
@@ -132,43 +136,81 @@ No start/end dates, so we couldn't work out which seasons they played. They were
 - Colin West
 - Robert Buchanan
 - Thomas Knox
-- Ron Gingell
-- Tom Baxter
 
-## Missing end date (28)
+## Missing end date (68)
 
 We know when they arrived but not when they left, so only the season we're sure of was recorded. Please confirm their full span.
 
 - Nathaniel Chalobah
 - Claire Rafferty
 - Lucas Piazón
+- Jim Molyneux
+- Frank Hoddinott
 - Michael Hector
 - Joao Rodríguez
 - Izzy Brown
+- David Datro Fofana
+- Lesley Ugochukwu
 - Levi Colwill
+- Roméo Lavia
+- Filip Jörgensen
+- Jamie Gittens
+- Mike Penders
 - Bashir Humphreys
+- Marc Guiu Paz
 - Reanna Blades
+- Aaron Anselmino
+- Josh Acheampong
+- George Johnson
+- Alex Kiwomya
+- Tosin Adarabioyo
 - Matej Delač
 - Baba Rahman
-- Islam Feruz
-- Willy Caballero
-- Trevoh Chalobah
-- Alex Kiwomya
+- Toon Effern
 - Kenedy
 - Lewis Baker
 - Marcus Bettinelli
 - John Swift
+- Islam Feruz
+- Alec Cheyne
+- Willy Caballero
+- Trevoh Chalobah
 - Ji So-Yun
+- Alan Mayes
+- Eric Parsons
+- Gilbert Ovens
 - Jamal Blackman
+- Harry Medhurst
 - Todd Kane
+- Wesley Fofana
 - Tomáš Kalas
-- Reece James
-- Billy Gilmour
+- Mykhailo Mudryk
+- João Pedro
+- Moisés Caicedo
+- Enzo Fernández
+- Caleb Wiley
+- Liam Delap
+- Cole Palmer
+- Alejandro Garnacho
+- Jorrel Hato
+- Geovany Quenda
+- Marco Palestra
+- Sam Irving
+- Walter Bettridge
+- Genesis Antwi
 - Charly Musonda
 - Jake Clarke-Salter
+- Axel Disasi
+- Keira Walsh
+- Pedro Neto
+- Reece James
+- Billy Gilmour
+- Robert Sánchez
+- Benoît Badiashile
+- Malo Gusto
 - Charlie Brown
 
-## Year-only dates (verify season boundaries) (352)
+## Year-only dates (verify season boundaries) (363)
 
 Their dates were stored to the year only, so the exact first/last season is a best guess. Worth a quick check.
 
@@ -196,6 +238,8 @@ Their dates were stored to the year only, so the exact first/last season is a be
 - Mohamed Salah
 - Milan Lalkovič
 - Rhys Taylor
+- Jim Molyneux
+- Frank Hoddinott
 - Michael Hector
 - Joao Rodríguez
 - David Datro Fofana
@@ -207,100 +251,6 @@ Their dates were stored to the year only, so the exact first/last season is a be
 - Reanna Blades
 - Aaron Anselmino
 - Josh Acheampong
-- Matej Delač
-- Frode Grodås
-- Yūki Nagasato
-- Emmanuel Petit
-- Boudewijn Zenden
-- Oriol Romeu
-- Steve Sidwell
-- Tal Ben Haim
-- Dave Beasant
-- Frank Leboeuf
-- César Azpilicueta
-- Victor Moses
-- Demba Ba
-- Ryan Bertrand
-- Jesper Grønkjær
-- Glenn Hoddle
-- Nemanja Matić
-- Miroslav Stoch
-- Gaël Kakuta
-- Scott Sinclair
-- Josh McEachran
-- Asier del Horno
-- Raheem Sterling
-- Jared Borgetti
-- Celestine Babayaro
-- Mineiro
-- Sam Hutchinson
-- Romelu Lukaku LA CAKA
-- Michael Mancienne
-- Franco Di Santo
-- Albert Ferrer
-- Baba Rahman
-- Patrick Bamford
-- Boy-Boy Mosia
-- Alexis Nicolas
-- Jeffrey Ntuka
-- Terry Phelan
-- Emmanuel Sarki
-- Shaun Cummings
-- Kevin Hitchcock
-- Kepa Arrizabalaga
-- Leon Knight
-- João Félix
-- Kai Havertz
-- Édouard Mendy
-- Andriy Shevchenko
-- Frank Lampard
-- Fernando Torres
-- Arjen Robben
-- Ross Barkley
-- Dennis Wise
-- Islam Feruz
-- Hakim Ziyech
-- James Younghusband
-- Anthony Grant
-- Gus Poyet
-- Lianne Sanderson
-- Magnus Hedman
-- Ed de Goey
-- Mikael Forssell
-- Jürgen Macho
-- Slobodan Rajković
-- Mario Stanić
-- Filipe Luís
-- Mark Bosnich
-- Mario Melchiot
-- Graeme Le Saux
-- Chris Sutton
-- Alexey Smertin
-- Pierluigi Casiraghi
-- Steve Clarke
-- Asmir Begović
-- Jack Cork
-- Marcos Alonso Mendoza
-- Jiří Jarošík
-- Ulises Dávila
-- Diego Costa
-- Alcides Araújo Alves
-- Jackie Groenen
-- Michael Woods
-- Papy Djilobodji
-- Gavin Peacock
-- Steven Hampshire
-- Jan Šebek
-- Timo Werner
-- Andy Myers
-- Jimmy Aggrey
-- Mark Stein
-- Nana Ofori-Twumasi
-- Scott Minto
-- Valerio Di Cesare
-- Warren Cummings
-- Jhon Pírez
-- Trevoh Chalobah
 - William Gallas
 - Nicolas Anelka
 - Oscar
@@ -344,11 +294,58 @@ Their dates were stored to the year only, so the exact first/last season is a be
 - Neil Sullivan
 - Jon Harley
 - Robert Fleck
+- George Johnson
 - Alex Kiwomya
 - Walter Figueira
 - Victorien Angban
 - Ben Chilwell
 - Marc Cucurella
+- Matej Delač
+- Frode Grodås
+- Yūki Nagasato
+- Emmanuel Petit
+- Boudewijn Zenden
+- Oriol Romeu
+- Steve Sidwell
+- Tal Ben Haim
+- Dave Beasant
+- Frank Leboeuf
+- César Azpilicueta
+- Victor Moses
+- Demba Ba
+- Ryan Bertrand
+- Jesper Grønkjær
+- Glenn Hoddle
+- Nemanja Matić
+- Miroslav Stoch
+- Gaël Kakuta
+- Scott Sinclair
+- Josh McEachran
+- Asier del Horno
+- Raheem Sterling
+- Jared Borgetti
+- Celestine Babayaro
+- Mineiro
+- Sam Hutchinson
+- Romelu Lukaku LA CAKA
+- Michael Mancienne
+- Franco Di Santo
+- Albert Ferrer
+- Baba Rahman
+- Patrick Bamford
+- Boy-Boy Mosia
+- Toon Effern
+- Alexis Nicolas
+- Jeffrey Ntuka
+- Terry Phelan
+- Emmanuel Sarki
+- Shaun Cummings
+- Kevin Hitchcock
+- Kepa Arrizabalaga
+- Leon Knight
+- João Félix
+- Kai Havertz
+- Édouard Mendy
 - Florent Malouda
 - Cesc Fàbregas
 - Radamel Falcao
@@ -388,6 +385,56 @@ Their dates were stored to the year only, so the exact first/last season is a be
 - John Swift
 - Dominic Solanke
 - Ruben Loftus-Cheek
+- Andriy Shevchenko
+- Frank Lampard
+- Fernando Torres
+- Arjen Robben
+- Ross Barkley
+- Dennis Wise
+- Islam Feruz
+- Hakim Ziyech
+- James Younghusband
+- Anthony Grant
+- Gus Poyet
+- Lianne Sanderson
+- Magnus Hedman
+- Ed de Goey
+- Mikael Forssell
+- Jürgen Macho
+- Alec Cheyne
+- Slobodan Rajković
+- Mario Stanić
+- Filipe Luís
+- Mark Bosnich
+- Mario Melchiot
+- Graeme Le Saux
+- Chris Sutton
+- Alexey Smertin
+- Pierluigi Casiraghi
+- Steve Clarke
+- Asmir Begović
+- Jack Cork
+- Marcos Alonso Mendoza
+- Jiří Jarošík
+- Ulises Dávila
+- Diego Costa
+- Alcides Araújo Alves
+- Jackie Groenen
+- Michael Woods
+- Papy Djilobodji
+- Gavin Peacock
+- Steven Hampshire
+- Jan Šebek
+- Timo Werner
+- Andy Myers
+- Jimmy Aggrey
+- Mark Stein
+- Nana Ofori-Twumasi
+- Scott Minto
+- Valerio Di Cesare
+- Warren Cummings
+- Jhon Pírez
+- Trevoh Chalobah
 - Álvaro Morata
 - Didier Drogba
 - Tony Cascarino
@@ -400,6 +447,7 @@ Their dates were stored to the year only, so the exact first/last season is a be
 - Adam Phillip
 - Adrian Pettigrew
 - Alan Dickens
+- Alan Mayes
 - Andy Dow
 - Anthony Barness
 - Archange Nkumu
@@ -420,12 +468,15 @@ Their dates were stored to the year only, so the exact first/last season is a be
 - Ben Gordon
 - Lee Sawyer
 - Emerson Palmieri
+- Eric Parsons
 - Daniel Pappoe
 - Fábio Ferreira
 - Gareth Hall
 - Gemma Bonner
+- Gilbert Ovens
 - Graham Stuart
 - Jamal Blackman
+- Harry Medhurst
 - Harry Worley
 - Aziz Deen-Conteh
 - George Saville
@@ -484,24 +535,6 @@ Their dates were stored to the year only, so the exact first/last season is a be
 - Caleb Wiley
 - Cole Palmer
 - Jorrel Hato
-- Genesis Antwi
-- Mason Mount
-- Reece James
-- Callum Hudson-Odoi
-- Billy Gilmour
-- Marc Guéhi
-- Conor Gallagher
-- Jake Clarke-Salter
-- Axel Disasi
-- Fikayo Tomori
-- Terry Skiverton
-- Kyle Scott
-- Benoît Badiashile
-- Ian Maatsen
-- Zeke Rowe
-- Malo Gusto
-- Tariq Lamptey
-- Charlie Brown
 - Thibaut Courtois
 - John Terry
 - Enrique de Lucas
@@ -517,6 +550,7 @@ Their dates were stored to the year only, so the exact first/last season is a be
 - Lenny Pidgeley
 - Rhys Evans
 - Rob Wolleaston
+- Sam Irving
 - Sam Parkin
 - Sam Tillen
 - Sam Walker
@@ -524,3 +558,22 @@ Their dates were stored to the year only, so the exact first/last season is a be
 - Steven Watt
 - Stuart Reddington
 - Stuart Searle
+- Walter Bettridge
+- Genesis Antwi
+- Jake Clarke-Salter
+- Axel Disasi
+- Fikayo Tomori
+- Mason Mount
+- Reece James
+- Callum Hudson-Odoi
+- Billy Gilmour
+- Marc Guéhi
+- Conor Gallagher
+- Terry Skiverton
+- Kyle Scott
+- Benoît Badiashile
+- Ian Maatsen
+- Zeke Rowe
+- Malo Gusto
+- Tariq Lamptey
+- Charlie Brown
