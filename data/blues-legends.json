@@ -1,0 +1,6840 @@
+{
+  "_readme": "Facts (name/seasons/slots) are imported from Wikidata. Numbers (priceM/attack/defence) are game-balance values YOU set — the import never touches them. Re-running merges: it keeps your edits and only fills missing facts. See the comment block in scripts/import-blues-legends.mjs and the gaps in data/blues-legends-todo.md.",
+  "_source": "Wikidata (https://www.wikidata.org), CC0. Fetched via SPARQL.",
+  "_generated": "2026-07-17T01:21:31.568Z",
+  "players": [
+    {
+      "wikidataId": "Q123227962",
+      "name": "Aaron Anselmino",
+      "seasons": [
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4679611",
+      "name": "Adam Phillip",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q202645",
+      "name": "Adrian Mutu",
+      "seasons": [
+        "2003-04"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4685268",
+      "name": "Adrian Pettigrew",
+      "seasons": [
+        "2005-06",
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4706507",
+      "name": "Alan Dickens",
+      "seasons": [
+        "1992-93"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q316809",
+      "name": "Albert Ferrer",
+      "seasons": [
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q460029",
+      "name": "Alcides Araújo Alves",
+      "seasons": [
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q111366053",
+      "name": "Alejandro Garnacho",
+      "seasons": [
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q19561048",
+      "name": "Alex Kiwomya",
+      "seasons": [
+        "2015-16"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q216142",
+      "name": "Alex Rodrigo Dias da Costa",
+      "seasons": [
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q375295",
+      "name": "Alexey Smertin",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2644146",
+      "name": "Alexis Nicolas",
+      "seasons": [
+        "2002-03",
+        "2003-04"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q48770",
+      "name": "Álvaro Morata",
+      "seasons": [
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q795483",
+      "name": "Amin Affane",
+      "seasons": [
+        "2012-13"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q58377",
+      "name": "André Schürrle",
+      "seasons": [
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [
+        "CM",
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q16063229",
+      "name": "Andreas Christensen",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q41244",
+      "name": "Andriy Shevchenko",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4760618",
+      "name": "Andy Dow",
+      "seasons": [
+        "1993-94",
+        "1994-95",
+        "1995-96"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3616558",
+      "name": "Andy Myers",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q527899",
+      "name": "Andy Townsend",
+      "seasons": [
+        "1992-93"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q10902",
+      "name": "Anita Asante",
+      "seasons": [
+        "2008-09"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4772064",
+      "name": "Anthony Barness",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q328656",
+      "name": "Anthony Grant",
+      "seasons": [
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q96755",
+      "name": "Antonio Rüdiger",
+      "seasons": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4785570",
+      "name": "Archange Nkumu",
+      "seasons": [
+        "2012-13"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q43913",
+      "name": "Arjen Robben",
+      "seasons": [
+        "2004-05",
+        "2005-06",
+        "2006-07"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q87347516",
+      "name": "Armando Broja",
+      "seasons": [
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q133556",
+      "name": "Ashley Cole",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q312120",
+      "name": "Asier del Horno",
+      "seasons": [
+        "2005-06"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q431368",
+      "name": "Asmir Begović",
+      "seasons": [
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q23887767",
+      "name": "Axel Disasi",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5715082",
+      "name": "Aziz Deen-Conteh",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q317389",
+      "name": "Baba Rahman",
+      "seasons": [
+        "2015-16"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q116137865",
+      "name": "Bashir Humphreys",
+      "seasons": [
+        "2021-22"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q21621029",
+      "name": "Ben Chilwell",
+      "seasons": [
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q596959",
+      "name": "Ben Gordon",
+      "seasons": [
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q342364",
+      "name": "Ben Sahar",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q57704058",
+      "name": "Benoît Badiashile",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q738430",
+      "name": "Bernard Lambourde",
+      "seasons": [
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q828627",
+      "name": "Bertrand Traoré",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "ST",
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4912357",
+      "name": "Billy Clifford",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q42847487",
+      "name": "Billy Gilmour",
+      "seasons": [
+        "2019-20"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q681412",
+      "name": "Bjarne Goldbæk",
+      "seasons": [
+        "1998-99",
+        "1999-00"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q271615",
+      "name": "Boudewijn Zenden",
+      "seasons": [
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2554481",
+      "name": "Boy-Boy Mosia",
+      "seasons": [
+        "2003-04"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q181921",
+      "name": "Branislav Ivanović",
+      "seasons": [
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q97158493",
+      "name": "Caleb Wiley",
+      "seasons": [
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q42396622",
+      "name": "Callum Hudson-Odoi",
+      "seasons": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1039620",
+      "name": "Carl Magnay",
+      "seasons": [
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q207806",
+      "name": "Carlo Cudicini",
+      "seasons": [
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q158618",
+      "name": "Carlton Cole",
+      "seasons": [
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5043121",
+      "name": "Carly Telford",
+      "seasons": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q106915801",
+      "name": "Carney Chukwuemeka",
+      "seasons": [
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q312354",
+      "name": "Celestine Babayaro",
+      "seasons": [
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q294806",
+      "name": "César Azpilicueta",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q17499",
+      "name": "Cesc Fàbregas",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q85751626",
+      "name": "Charlie Brown",
+      "seasons": [
+        "2020-21"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q36489082",
+      "name": "Charlie Wakefield",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q22669663",
+      "name": "Charly Musonda",
+      "seasons": [
+        "2014-15"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q363769",
+      "name": "Chris Sutton",
+      "seasons": [
+        "1999-00"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1077904",
+      "name": "Chris Zoricich",
+      "seasons": [
+        "1996-97"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q168287",
+      "name": "Christian Panucci",
+      "seasons": [
+        "2000-01"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q22279773",
+      "name": "Christian Pulisic",
+      "seasons": [
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q21693199",
+      "name": "Christopher Nkunku",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q10881",
+      "name": "Claire Rafferty",
+      "seasons": [
+        "2007-08"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q184362",
+      "name": "Claude Makelélé",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q109397",
+      "name": "Claudio Pizarro",
+      "seasons": [
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q99760796",
+      "name": "Cole Palmer",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q981712",
+      "name": "Conor Clifford",
+      "seasons": [
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q44737408",
+      "name": "Conor Gallagher",
+      "seasons": [
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2276892",
+      "name": "Craig Burley",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1138541",
+      "name": "Craig Forrest",
+      "seasons": [
+        "1996-97"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1776271",
+      "name": "Craig Rocastle",
+      "seasons": [
+        "2003-04",
+        "2004-05"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5212292",
+      "name": "Damian Matthew",
+      "seasons": [
+        "1992-93",
+        "1993-94"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q192971",
+      "name": "Damien Duff",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1159141",
+      "name": "Dan Petrescu",
+      "seasons": [
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5395796",
+      "name": "Daniel Pappoe",
+      "seasons": [
+        "2013-14"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q222231",
+      "name": "Daniel Sturridge",
+      "seasons": [
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1862778",
+      "name": "Danny Drinkwater",
+      "seasons": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5220397",
+      "name": "Danny Granville",
+      "seasons": [
+        "1997-98"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5220449",
+      "name": "Danny Hollands",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q981671",
+      "name": "Danny Philliskirk",
+      "seasons": [
+        "2010-11"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5220953",
+      "name": "Danny Woodards",
+      "seasons": [
+        "2003-04",
+        "2004-05"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5224769",
+      "name": "Darren Barnard",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q282812",
+      "name": "Dave Beasant",
+      "seasons": [
+        "1992-93"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q105575806",
+      "name": "David Datro Fofana",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q679285",
+      "name": "David Hopkin",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5236432",
+      "name": "David Lee",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q193706",
+      "name": "David Luiz",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q764158",
+      "name": "David Rocastle",
+      "seasons": [
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5241591",
+      "name": "Davide Zappacosta",
+      "seasons": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q659634",
+      "name": "Deco",
+      "seasons": [
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q296341",
+      "name": "Demba Ba",
+      "seasons": [
+        "2013-14"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q21066260",
+      "name": "Denis Zakaria",
+      "seasons": [
+        "2022-23"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q326438",
+      "name": "Dennis Wise",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q508711",
+      "name": "Didier Deschamps",
+      "seasons": [
+        "1999-00"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q48892",
+      "name": "Didier Drogba",
+      "seasons": [
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2014-15"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q459707",
+      "name": "Diego Costa",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q110616805",
+      "name": "Diego Moreira",
+      "seasons": [
+        "2023-24"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q552710",
+      "name": "Dmitri Kharine",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q18336397",
+      "name": "Dominic Solanke",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q10878",
+      "name": "Dunia Susi",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q342401",
+      "name": "Ed de Goey",
+      "seasons": [
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1154427",
+      "name": "Eddie Newton",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q214204",
+      "name": "Eden Hazard",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q27736107",
+      "name": "Édouard Mendy",
+      "seasons": [
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q299768",
+      "name": "Eduardo Carvalho",
+      "seasons": [
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q187396",
+      "name": "Eiður Guðjohnsen",
+      "seasons": [
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q10911",
+      "name": "Ellen White",
+      "seasons": [
+        "2005-06",
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5370912",
+      "name": "Emerson Palmieri",
+      "seasons": [
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q210056",
+      "name": "Emerson Thome",
+      "seasons": [
+        "1999-00"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q269883",
+      "name": "Emmanuel Petit",
+      "seasons": [
+        "2001-02",
+        "2002-03",
+        "2003-04"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2743104",
+      "name": "Emmanuel Sarki",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q10905",
+      "name": "Eniola Aluko",
+      "seasons": [
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q719654",
+      "name": "Enrique de Lucas",
+      "seasons": [
+        "2002-03"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q96105248",
+      "name": "Enzo Fernández",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q700301",
+      "name": "Erland Johnsen",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q26250324",
+      "name": "Ethan Ampadu",
+      "seasons": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "CM",
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q245054",
+      "name": "Fabio Borini",
+      "seasons": [
+        "2009-10",
+        "2010-11"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5511337",
+      "name": "Fábio Ferreira",
+      "seasons": [
+        "2008-09"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q42731",
+      "name": "Fernando Torres",
+      "seasons": [
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q24068577",
+      "name": "Fikayo Tomori",
+      "seasons": [
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q108776426",
+      "name": "Filip Jörgensen",
+      "seasons": [
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q350547",
+      "name": "Filipe Luís",
+      "seasons": [
+        "2014-15"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q205246",
+      "name": "Filipe Morais",
+      "seasons": [
+        "2005-06"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q673237",
+      "name": "Filipe Oliveira",
+      "seasons": [
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1913",
+      "name": "Florent Malouda",
+      "seasons": [
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q315330",
+      "name": "Franco Di Santo",
+      "seasons": [
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q41533",
+      "name": "Frank Lampard",
+      "seasons": [
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q290769",
+      "name": "Frank Leboeuf",
+      "seasons": [
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q657039",
+      "name": "Frank Sinclair",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q264613",
+      "name": "Frode Grodås",
+      "seasons": [
+        "1996-97",
+        "1997-98"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q980632",
+      "name": "Gabriele Ambrosetti",
+      "seasons": [
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q299703",
+      "name": "Gaël Kakuta",
+      "seasons": [
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5522858",
+      "name": "Gareth Hall",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q223827",
+      "name": "Gary Cahill",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3380736",
+      "name": "Gavin Peacock",
+      "seasons": [
+        "1993-94",
+        "1994-95",
+        "1995-96"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5530702",
+      "name": "Gemma Bonner",
+      "seasons": [
+        "2011-12"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q133273246",
+      "name": "Genesis Antwi",
+      "seasons": [
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5870838",
+      "name": "George Saville",
+      "seasons": [
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q123499230",
+      "name": "Geovany Quenda",
+      "seasons": [
+        "2026-27"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q204230",
+      "name": "Geremi",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07"
+      ],
+      "slots": [
+        "CM",
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q9354",
+      "name": "Gianfranco Zola",
+      "seasons": [
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q239688",
+      "name": "Gianluca Vialli",
+      "seasons": [
+        "1996-97",
+        "1997-98",
+        "1998-99"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q185208",
+      "name": "Glen Johnson",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q296666",
+      "name": "Glenn Hoddle",
+      "seasons": [
+        "1993-94",
+        "1994-95"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q61655",
+      "name": "Gökhan Töre",
+      "seasons": [
+        "2009-10",
+        "2010-11"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q483846",
+      "name": "Gonzalo Higuaín",
+      "seasons": [
+        "2018-19"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q360616",
+      "name": "Graeme Le Saux",
+      "seasons": [
+        "1992-93",
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5593295",
+      "name": "Graham Stuart",
+      "seasons": [
+        "1992-93"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q338595",
+      "name": "Gus Poyet",
+      "seasons": [
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q327456",
+      "name": "Hakim Ziyech",
+      "seasons": [
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5673549",
+      "name": "Harry Worley",
+      "seasons": [
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q214751",
+      "name": "Henrique Hilário",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q160206",
+      "name": "Hernán Crespo",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q69495231",
+      "name": "Ian Maatsen",
+      "seasons": [
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q246651",
+      "name": "Ian Pearce",
+      "seasons": [
+        "1992-93"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q326451",
+      "name": "Islam Feruz",
+      "seasons": [
+        "2014-15"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q13409790",
+      "name": "Izzy Brown",
+      "seasons": [
+        "2013-14"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q438025",
+      "name": "Jack Cork",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q460559",
+      "name": "Jackie Groenen",
+      "seasons": [
+        "2014-15"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q981830",
+      "name": "Jacob Mellis",
+      "seasons": [
+        "2009-10",
+        "2010-11",
+        "2011-12"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q969299",
+      "name": "Jacopo Sala",
+      "seasons": [
+        "2008-09",
+        "2009-10",
+        "2010-11"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q30148558",
+      "name": "Jadon Sancho",
+      "seasons": [
+        "2024-25"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q23688811",
+      "name": "Jake Clarke-Salter",
+      "seasons": [
+        "2016-17"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q976612",
+      "name": "Jakob Kjeldbjerg",
+      "seasons": [
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5651446",
+      "name": "Jamal Blackman",
+      "seasons": [
+        "2012-13"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q327776",
+      "name": "James Younghusband",
+      "seasons": [
+        "2005-06"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q111627959",
+      "name": "Jamie Gittens",
+      "seasons": [
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3500541",
+      "name": "Jan Šebek",
+      "seasons": [
+        "2009-10",
+        "2010-11"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q312334",
+      "name": "Jared Borgetti",
+      "seasons": [
+        "2005-06"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6167109",
+      "name": "Jay Richardson",
+      "seasons": [
+        "1998-99",
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6170030",
+      "name": "Jean-Yves Anis",
+      "seasons": [
+        "2002-03"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q195682",
+      "name": "Jeffrey Bruma",
+      "seasons": [
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2667198",
+      "name": "Jeffrey Ntuka",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q685671",
+      "name": "Jes Høgh",
+      "seasons": [
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q296457",
+      "name": "Jesper Grønkjær",
+      "seasons": [
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4140483",
+      "name": "Jhon Pírez",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q493184",
+      "name": "Ji So-Yun",
+      "seasons": [
+        "2014-15"
+      ],
+      "slots": [
+        "CM",
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3806452",
+      "name": "Jimmy Aggrey",
+      "seasons": [
+        "1995-96",
+        "1996-97"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q223176",
+      "name": "Jimmy Floyd Hasselbaink",
+      "seasons": [
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q764582",
+      "name": "Jimmy Smith",
+      "seasons": [
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q454196",
+      "name": "Jiří Jarošík",
+      "seasons": [
+        "2005-06"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q27049064",
+      "name": "João Félix",
+      "seasons": [
+        "2024-25"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q64005114",
+      "name": "João Pedro",
+      "seasons": [
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q10555877",
+      "name": "Joao Rodríguez",
+      "seasons": [
+        "2013-14"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q741092",
+      "name": "Jody Morris",
+      "seasons": [
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q184946",
+      "name": "Joe Cole",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6209550",
+      "name": "Joe Dolan",
+      "seasons": [
+        "1997-98"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q928478",
+      "name": "Joe Keenan",
+      "seasons": [
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6212322",
+      "name": "Joe Sheerin",
+      "seasons": [
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6212670",
+      "name": "Joe Tillen",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6213635",
+      "name": "Joel Kitamirike",
+      "seasons": [
+        "2001-02",
+        "2002-03",
+        "2003-04"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1701793",
+      "name": "John Spencer",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q16860684",
+      "name": "John Swift",
+      "seasons": [
+        "2014-15"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q83456",
+      "name": "John Terry",
+      "seasons": [
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2440897",
+      "name": "Jon Harley",
+      "seasons": [
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3810078",
+      "name": "Jorginho",
+      "seasons": [
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q115059438",
+      "name": "Jorrel Hato",
+      "seasons": [
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q211996",
+      "name": "José Bosingwa",
+      "seasons": [
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q123411792",
+      "name": "Josh Acheampong",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q310404",
+      "name": "Josh McEachran",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q509374",
+      "name": "Juan Cuadrado",
+      "seasons": [
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q168740",
+      "name": "Juan Mata",
+      "seasons": [
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q237561",
+      "name": "Juliano Belletti",
+      "seasons": [
+        "2007-08",
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q252818",
+      "name": "Junior Mendes",
+      "seasons": [
+        "1995-96"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q346676",
+      "name": "Jürgen Macho",
+      "seasons": [
+        "2003-04"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q27310755",
+      "name": "Kai Havertz",
+      "seasons": [
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "ST",
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3192187",
+      "name": "Kalidou Koulibaly",
+      "seasons": [
+        "2022-23"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q24060309",
+      "name": "Keira Walsh",
+      "seasons": [
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CM",
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q14755604",
+      "name": "Kenedy",
+      "seasons": [
+        "2015-16"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q182041",
+      "name": "Kenneth Omeruo",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3195361",
+      "name": "Kepa Arrizabalaga",
+      "seasons": [
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2907497",
+      "name": "Kevin Hitchcock",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q191848",
+      "name": "Khalid Boulahrouz",
+      "seasons": [
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q83632882",
+      "name": "Kiernan Dewsbury-Hall",
+      "seasons": [
+        "2024-25"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q211271",
+      "name": "Kurt Zouma",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q48967361",
+      "name": "Kyle Scott",
+      "seasons": [
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q485196",
+      "name": "Lassana Diarra",
+      "seasons": [
+        "2005-06",
+        "2006-07"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q603728",
+      "name": "Lee Sawyer",
+      "seasons": [
+        "2008-09"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q839035",
+      "name": "Lenny Pidgeley",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3229644",
+      "name": "Leon Knight",
+      "seasons": [
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q106366721",
+      "name": "Lesley Ugochukwu",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q107766903",
+      "name": "Levi Colwill",
+      "seasons": [
+        "2020-21"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q15608535",
+      "name": "Lewis Baker",
+      "seasons": [
+        "2014-15"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q110487162",
+      "name": "Lewis Hall",
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24"
+      ],
+      "slots": [
+        "CM",
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2080923",
+      "name": "Liam Bridcutt",
+      "seasons": [
+        "2007-08",
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q99584177",
+      "name": "Liam Delap",
+      "seasons": [
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q339690",
+      "name": "Lianne Sanderson",
+      "seasons": [
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q114859",
+      "name": "Loïc Rémy",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q126903",
+      "name": "Lucas Piazón",
+      "seasons": [
+        "2012-13",
+        "2016-17"
+      ],
+      "slots": [
+        "CM",
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q342214",
+      "name": "Magnus Hedman",
+      "seasons": [
+        "2006-07"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q648928",
+      "name": "Mal Donaghy",
+      "seasons": [
+        "1992-93",
+        "1993-94"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q78752401",
+      "name": "Malo Gusto",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q22082505",
+      "name": "Marc Cucurella",
+      "seasons": [
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q44737396",
+      "name": "Marc Guéhi",
+      "seasons": [
+        "2019-20",
+        "2020-21"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q118472572",
+      "name": "Marc Guiu Paz",
+      "seasons": [
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q193625",
+      "name": "Marcel Desailly",
+      "seasons": [
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q980474",
+      "name": "Marco Ambrosio",
+      "seasons": [
+        "2003-04"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q234866",
+      "name": "Marco Amelia",
+      "seasons": [
+        "2015-16"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q123825412",
+      "name": "Marco Palestra",
+      "seasons": [
+        "2026-27"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q648671",
+      "name": "Marco van Ginkel",
+      "seasons": [
+        "2013-14"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q442838",
+      "name": "Marcos Alonso Mendoza",
+      "seasons": [
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q16200385",
+      "name": "Marcus Bettinelli",
+      "seasons": [
+        "2021-22"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q354629",
+      "name": "Mario Melchiot",
+      "seasons": [
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q14625183",
+      "name": "Mario Pašalić",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q350452",
+      "name": "Mario Stanić",
+      "seasons": [
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q350628",
+      "name": "Mark Bosnich",
+      "seasons": [
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q214513",
+      "name": "Mark Hughes",
+      "seasons": [
+        "1995-96",
+        "1996-97",
+        "1997-98"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6769023",
+      "name": "Mark Nicholls",
+      "seasons": [
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q159057",
+      "name": "Mark Schwarzer",
+      "seasons": [
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3849565",
+      "name": "Mark Stein",
+      "seasons": [
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q150921",
+      "name": "Marko Marin",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5989408",
+      "name": "Marko Mitrović",
+      "seasons": [
+        "2011-12"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q38000669",
+      "name": "Mason Mount",
+      "seasons": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "CM",
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q256604",
+      "name": "Matej Delač",
+      "seasons": [
+        "2009-10"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q204059",
+      "name": "Mateja Kežman",
+      "seasons": [
+        "2004-05"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q701297",
+      "name": "Mateo Kovačić",
+      "seasons": [
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q16236909",
+      "name": "Matt Miazga",
+      "seasons": [
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q570109",
+      "name": "Mbark Boussoufa",
+      "seasons": [
+        "2003-04"
+      ],
+      "slots": [
+        "CM",
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q11948",
+      "name": "Michael Ballack",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2287704",
+      "name": "Michael Duberry",
+      "seasons": [
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q969520",
+      "name": "Michael Essien",
+      "seasons": [
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q10514868",
+      "name": "Michael Hector",
+      "seasons": [
+        "2015-16"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q315301",
+      "name": "Michael Mancienne",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3267081",
+      "name": "Michael Woods",
+      "seasons": [
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2301910",
+      "name": "Michy Batshuayi",
+      "seasons": [
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6838221",
+      "name": "Mick Harford",
+      "seasons": [
+        "1992-93"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q342530",
+      "name": "Mikael Forssell",
+      "seasons": [
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q113515002",
+      "name": "Mike Penders",
+      "seasons": [
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q166984",
+      "name": "Mikel John Obi",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1356853",
+      "name": "Milan Lalkovič",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q312687",
+      "name": "Mineiro",
+      "seasons": [
+        "2008-09"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q299515",
+      "name": "Miroslav Stoch",
+      "seasons": [
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1354960",
+      "name": "Mohamed Salah",
+      "seasons": [
+        "2014-15"
+      ],
+      "slots": [
+        "ST",
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q87715532",
+      "name": "Moisés Caicedo",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1856689",
+      "name": "Morten Nielsen",
+      "seasons": [
+        "2008-09"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q740385",
+      "name": "Muzzy Izzet",
+      "seasons": [
+        "1993-94",
+        "1994-95",
+        "1995-96"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q58494476",
+      "name": "Mykhailo Mudryk",
+      "seasons": [
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q16665941",
+      "name": "N'Golo Kanté",
+      "seasons": [
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3870080",
+      "name": "Nana Ofori-Twumasi",
+      "seasons": [
+        "2009-10"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1755683",
+      "name": "Nathan Aké",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q10788",
+      "name": "Nathaniel Chalobah",
+      "seasons": [
+        "2012-13"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1469984",
+      "name": "Neil Clement",
+      "seasons": [
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6989311",
+      "name": "Neil Shipperley",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2361704",
+      "name": "Neil Sullivan",
+      "seasons": [
+        "2003-04"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q297603",
+      "name": "Nemanja Matić",
+      "seasons": [
+        "2009-10",
+        "2010-11",
+        "2014-15",
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q771676",
+      "name": "Nick Colgan",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7026947",
+      "name": "Nick Crittenden",
+      "seasons": [
+        "1997-98",
+        "1998-99",
+        "1999-00"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1939",
+      "name": "Nicolas Anelka",
+      "seasons": [
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q725894",
+      "name": "Nigel Spackman",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q66801705",
+      "name": "Noni Madueke",
+      "seasons": [
+        "2023-24",
+        "2024-25"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q704822",
+      "name": "Nuno Morais",
+      "seasons": [
+        "2004-05",
+        "2005-06",
+        "2006-07"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1911",
+      "name": "Olivier Giroud",
+      "seasons": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q274523",
+      "name": "Oriol Romeu",
+      "seasons": [
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q19497",
+      "name": "Oscar",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3362956",
+      "name": "Papy Djilobodji",
+      "seasons": [
+        "2015-16"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q326181",
+      "name": "Patrick Bamford",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1110321",
+      "name": "Paul Elliott",
+      "seasons": [
+        "1992-93",
+        "1993-94"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7150758",
+      "name": "Paul Furlong",
+      "seasons": [
+        "1994-95",
+        "1995-96"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7151416",
+      "name": "Paul Hughes",
+      "seasons": [
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q184614",
+      "name": "Paulo Ferreira",
+      "seasons": [
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q179773",
+      "name": "Pedro",
+      "seasons": [
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q30036972",
+      "name": "Pedro Neto",
+      "seasons": [
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q483137",
+      "name": "Petr Čech",
+      "seasons": [
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q240008",
+      "name": "Phil Younghusband",
+      "seasons": [
+        "2005-06",
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "CM",
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q378583",
+      "name": "Pierluigi Casiraghi",
+      "seasons": [
+        "1998-99",
+        "1999-00"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q647683",
+      "name": "Pierre Issa",
+      "seasons": [
+        "2000-01"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q44977",
+      "name": "Pierre-Emerick Aubameyang",
+      "seasons": [
+        "2022-23"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q138172",
+      "name": "Radamel Falcao",
+      "seasons": [
+        "2015-16"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q312157",
+      "name": "Raheem Sterling",
+      "seasons": [
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q204407",
+      "name": "Ramires",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q945139",
+      "name": "Rati Aleksidze",
+      "seasons": [
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q175296",
+      "name": "Raul Meireles",
+      "seasons": [
+        "2011-12"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q122025947",
+      "name": "Reanna Blades",
+      "seasons": [
+        "2021-22"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q39076401",
+      "name": "Reece James",
+      "seasons": [
+        "2018-19"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7321778",
+      "name": "Rhys Evans",
+      "seasons": [
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1361619",
+      "name": "Rhys Taylor",
+      "seasons": [
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q570811",
+      "name": "Ricardo Carvalho",
+      "seasons": [
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7340656",
+      "name": "Rob Wolleaston",
+      "seasons": [
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2534845",
+      "name": "Robert Fleck",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q200770",
+      "name": "Robert Green",
+      "seasons": [
+        "2018-19"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q155461",
+      "name": "Robert Huth",
+      "seasons": [
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q56043276",
+      "name": "Robert Sánchez",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q193348",
+      "name": "Roberto Di Matteo",
+      "seasons": [
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6111102",
+      "name": "Rohan Ince",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q313316",
+      "name": "Romelu Lukaku LA CAKA",
+      "seasons": [
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q108649714",
+      "name": "Roméo Lavia",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q326240",
+      "name": "Ross Barkley",
+      "seasons": [
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22"
+      ],
+      "slots": [
+        "AM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q245022",
+      "name": "Ross Turnbull",
+      "seasons": [
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q18616995",
+      "name": "Ruben Loftus-Cheek",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q16215861",
+      "name": "Russell Kelly",
+      "seasons": [
+        "1995-96"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q173972",
+      "name": "Ruud Gullit",
+      "seasons": [
+        "1995-96",
+        "1996-97",
+        "1997-98"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q296391",
+      "name": "Ryan Bertrand",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q180462",
+      "name": "Salomon Kalou",
+      "seasons": [
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q312980",
+      "name": "Sam Hutchinson",
+      "seasons": [
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7407998",
+      "name": "Sam Parkin",
+      "seasons": [
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7408251",
+      "name": "Sam Tillen",
+      "seasons": [
+        "2002-03",
+        "2003-04",
+        "2004-05"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7408288",
+      "name": "Sam Walker",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1255625",
+      "name": "Samuel Eto'o",
+      "seasons": [
+        "2013-14"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q966590",
+      "name": "Samuele Dalla Bona",
+      "seasons": [
+        "1999-00",
+        "2000-01",
+        "2001-02"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q912172",
+      "name": "Saúl Ñíguez",
+      "seasons": [
+        "2021-22"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3952856",
+      "name": "Scott Minto",
+      "seasons": [
+        "1994-95",
+        "1995-96",
+        "1996-97"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q213989",
+      "name": "Scott Parker",
+      "seasons": [
+        "2004-05"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q310402",
+      "name": "Scott Sinclair",
+      "seasons": [
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2262869",
+      "name": "Sebastian Kneißl",
+      "seasons": [
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q525816",
+      "name": "Serey Dié",
+      "seasons": [
+        "2008-09"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2760974",
+      "name": "Shaun Cummings",
+      "seasons": [
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q192747",
+      "name": "Shaun Wright-Phillips",
+      "seasons": [
+        "2005-06",
+        "2006-07",
+        "2007-08"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q10860",
+      "name": "Siobhan Chamberlain",
+      "seasons": [
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2007-08",
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q944426",
+      "name": "Slaviša Jokanović",
+      "seasons": [
+        "2000-01",
+        "2001-02"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q350396",
+      "name": "Slobodan Rajković",
+      "seasons": [
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7608774",
+      "name": "Stephen Broad",
+      "seasons": [
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q379535",
+      "name": "Steve Clarke",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q275710",
+      "name": "Steve Sidwell",
+      "seasons": [
+        "2007-08"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3499232",
+      "name": "Steven Hampshire",
+      "seasons": [
+        "1997-98",
+        "1998-99",
+        "1999-00"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7615375",
+      "name": "Steven Watt",
+      "seasons": [
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7626995",
+      "name": "Stuart Reddington",
+      "seasons": [
+        "1999-00",
+        "2000-01"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q7627080",
+      "name": "Stuart Searle",
+      "seasons": [
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q276349",
+      "name": "Tal Ben Haim",
+      "seasons": [
+        "2007-08"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q80197171",
+      "name": "Tariq Lamptey",
+      "seasons": [
+        "2019-20"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q2711003",
+      "name": "Terry Phelan",
+      "seasons": [
+        "1995-96",
+        "1996-97"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q5366424",
+      "name": "Terry Skiverton",
+      "seasons": [
+        "1993-94",
+        "1994-95",
+        "1995-96"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q210453",
+      "name": "Thiago Silva",
+      "seasons": [
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q73360",
+      "name": "Thibaut Courtois",
+      "seasons": [
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q714116",
+      "name": "Thorgan Hazard",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q210944",
+      "name": "Tiago Mendes",
+      "seasons": [
+        "2004-05"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q15063275",
+      "name": "Tiemoué Bakayoko",
+      "seasons": [
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q3529022",
+      "name": "Timo Werner",
+      "seasons": [
+        "2020-21",
+        "2021-22"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q6147874",
+      "name": "Todd Kane",
+      "seasons": [
+        "2011-12"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1152674",
+      "name": "Tom Taiwo",
+      "seasons": [
+        "2008-09",
+        "2009-10"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q862539",
+      "name": "Tomáš Kalas",
+      "seasons": [
+        "2011-12",
+        "2013-14"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q470729",
+      "name": "Tony Cascarino",
+      "seasons": [
+        "1993-94"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q215944",
+      "name": "Tore André Flo",
+      "seasons": [
+        "1997-98",
+        "1998-99",
+        "1999-00"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q21620666",
+      "name": "Tosin Adarabioyo",
+      "seasons": [
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q36696865",
+      "name": "Trevoh Chalobah",
+      "seasons": [
+        "2018-19"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q456417",
+      "name": "Ulises Dávila",
+      "seasons": [
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4007873",
+      "name": "Valerio Di Cesare",
+      "seasons": [
+        "2003-04"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q295637",
+      "name": "Victor Moses",
+      "seasons": [
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q20711307",
+      "name": "Victorien Angban",
+      "seasons": [
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q19664602",
+      "name": "Walter Figueira",
+      "seasons": [
+        "2013-14"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q4018265",
+      "name": "Warren Cummings",
+      "seasons": [
+        "2000-01",
+        "2001-02",
+        "2002-03"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q206677",
+      "name": "Wayne Bridge",
+      "seasons": [
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q65029821",
+      "name": "Wesley Fofana",
+      "seasons": [
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26",
+        "2026-27"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q1937",
+      "name": "William Gallas",
+      "seasons": [
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q73480",
+      "name": "Willian",
+      "seasons": [
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18",
+        "2018-19",
+        "2019-20",
+        "2020-21"
+      ],
+      "slots": [],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q441986",
+      "name": "Willy Caballero",
+      "seasons": [
+        "2017-18"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q125796",
+      "name": "Winston Bogarde",
+      "seasons": [
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q189449",
+      "name": "Yossi Benayoun",
+      "seasons": [
+        "2010-11",
+        "2011-12",
+        "2012-13"
+      ],
+      "slots": [
+        "CM"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q266873",
+      "name": "Yūki Nagasato",
+      "seasons": [
+        "2013-14"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q184261",
+      "name": "Yuri Zhirkov",
+      "seasons": [
+        "2009-10",
+        "2010-11"
+      ],
+      "slots": [
+        "CB"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q934207",
+      "name": "Yves Ma-Kalambay",
+      "seasons": [
+        "2006-07"
+      ],
+      "slots": [
+        "GK"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q8068653",
+      "name": "Zeke Rowe",
+      "seasons": [
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": null,
+      "attack": null,
+      "defence": null,
+      "excluded": false,
+      "note": "PLACEHOLDER — founder to review"
+    }
+  ]
+}

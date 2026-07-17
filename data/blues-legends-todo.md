@@ -1,0 +1,526 @@
+# Blues Legends — things for you to check
+
+_Generated 2026-07-17 by scripts/import-blues-legends.mjs._
+
+These are the players the import could NOT place with full confidence. An empty field is always better than a confident guess, so anything uncertain was left for you rather than filled in. Fix them in the admin page (coming in Phase 1b) or tell me and I'll adjust.
+
+> Note on loans: Wikidata doesn't always mark loan spells. A very short spell (one season) on a famous name may have been a loan — worth a glance.
+
+## No position listed (9)
+
+Wikidata has no position for these players, so they have no slot. They won't appear in the game until you give them one.
+
+- Jamie Gittens
+- Bashir Humphreys
+- Reanna Blades
+- Aaron Anselmino
+- Diego Moreira
+- Geovany Quenda
+- Marco Palestra
+- Genesis Antwi
+- Charlie Brown
+
+## Position unclear (16)
+
+Wikidata listed a position we couldn't map onto GK/CB/CM/AM/ST. Please pick the right slot(s).
+
+- Eddie Newton — Wikidata says: wing half
+- Joao Rodríguez — Wikidata says: wing half
+- Boudewijn Zenden — Wikidata says: wing half
+- Victor Moses — Wikidata says: wing half
+- Jesper Grønkjær — Wikidata says: wing half
+- Gaël Kakuta — Wikidata says: wing half
+- Josh McEachran — Wikidata says: wing half
+- James Younghusband — Wikidata says: wing half
+- Filipe Morais — Wikidata says: wing half
+- Salomon Kalou — Wikidata says: wing half
+- Damien Duff — Wikidata says: wing half
+- Jacopo Sala — Wikidata says: wing half
+- Alejandro Garnacho — Wikidata says: wing half
+- Charly Musonda — Wikidata says: wing half
+- Willian — Wikidata says: wing half
+- David Rocastle — Wikidata says: midpoint
+
+## No usable dates (89)
+
+No start/end dates, so we couldn't work out which seasons they played. They were left out of the roster.
+
+- Jackie Milburn
+- Roy Kent
+- Nicolas Jackson
+- Lucas Bergström
+- Tudor Mendel-Idowu
+- Estevão
+- Omotayo A Fakinlede
+- S.O. Ajibolade
+- Sunday Olayemi
+- Esther Agbaje
+- Ibrahim Oreagba
+- Charlie Colkett
+- Dion Conroy
+- Ruben Sammut
+- Dujon Sterling
+- Faiq Bolkiah
+- David Cameron
+- Harry Smith
+- William Steer
+- Kano
+- Sam Millington
+- Aisultan Nazarbayev
+- Bradley Collins
+- Ike Ugbo
+- Mike Adams
+- Hugh Wales
+- Ola Aina
+- Jay Dasilva
+- Stan Edwards
+- Eric Oakton
+- Billy Sperrin
+- Alan Wilks
+- Alfred Bower
+- Allan Craig
+- Angus Douglas
+- Bill Whittaker
+- George Pybus
+- Alastair Gordon
+- Aldi Haxhia
+- Danny Stenning
+- Ian Watson
+- Nikki Ahamed
+- Nortei Nortey
+- Ricardo Fernandes
+- Jack Smith
+- James Stark
+- William Lewis
+- John Smith
+- Owen Marshall
+- Johnny Meadows
+- Dennis Sorrell
+- Juan Familia Castillo
+- Yuriel Celi
+- Billy Wayne Sinclair
+- Reginald Weaver
+- Jamie Cumming
+- Tino Anjorin
+- Piet de Visser
+- Olatunji .F. Aina
+- Jude Soonsup-Bell
+- Álvaro Fernández
+- Calum McFarlane
+- Mathis Eboué
+- Isaac Olusola Akindutire
+- Ajayi Vincent olusesi Bennett
+- Johnson Adetunji olanipekun
+- Adeagbo David Ibikunle
+- Lola Brown
+- Ria Bose
+- Bob Edwards
+- John Tennant
+- Jesse Starkey
+- Joseph Hughes
+- George McEachran
+- Stephen Wilkins
+- Tom Hewitt
+- Dick Foss
+- Bobby Russell
+- Dick Whittaker
+- Jimmy Dykes
+- Sandy Baltimore
+- Daishawn Redan
+- Jacob Maddox
+- John McInnes
+- Colin West
+- Robert Buchanan
+- Thomas Knox
+- Ron Gingell
+- Tom Baxter
+
+## Missing end date (28)
+
+We know when they arrived but not when they left, so only the season we're sure of was recorded. Please confirm their full span.
+
+- Nathaniel Chalobah
+- Claire Rafferty
+- Lucas Piazón
+- Michael Hector
+- Joao Rodríguez
+- Izzy Brown
+- Levi Colwill
+- Bashir Humphreys
+- Reanna Blades
+- Matej Delač
+- Baba Rahman
+- Islam Feruz
+- Willy Caballero
+- Trevoh Chalobah
+- Alex Kiwomya
+- Kenedy
+- Lewis Baker
+- Marcus Bettinelli
+- John Swift
+- Ji So-Yun
+- Jamal Blackman
+- Todd Kane
+- Tomáš Kalas
+- Reece James
+- Billy Gilmour
+- Charly Musonda
+- Jake Clarke-Salter
+- Charlie Brown
+
+## Year-only dates (verify season boundaries) (352)
+
+Their dates were stored to the year only, so the exact first/last season is a best guess. Worth a quick check.
+
+- Nathaniel Chalobah
+- Siobhan Chamberlain
+- Dunia Susi
+- Claire Rafferty
+- Anita Asante
+- Eniola Aluko
+- Ellen White
+- Michael Ballack
+- Claudio Pizarro
+- Loïc Rémy
+- Winston Bogarde
+- Lucas Piazón
+- Ashley Cole
+- Carl Magnay
+- Chris Zoricich
+- Paul Elliott
+- Craig Forrest
+- Tom Taiwo
+- Eddie Newton
+- Dan Petrescu
+- Samuel Eto'o
+- Mohamed Salah
+- Milan Lalkovič
+- Rhys Taylor
+- Michael Hector
+- Joao Rodríguez
+- David Datro Fofana
+- Carney Chukwuemeka
+- Levi Colwill
+- Filip Jörgensen
+- Lewis Hall
+- Bashir Humphreys
+- Reanna Blades
+- Aaron Anselmino
+- Josh Acheampong
+- Matej Delač
+- Frode Grodås
+- Yūki Nagasato
+- Emmanuel Petit
+- Boudewijn Zenden
+- Oriol Romeu
+- Steve Sidwell
+- Tal Ben Haim
+- Dave Beasant
+- Frank Leboeuf
+- César Azpilicueta
+- Victor Moses
+- Demba Ba
+- Ryan Bertrand
+- Jesper Grønkjær
+- Glenn Hoddle
+- Nemanja Matić
+- Miroslav Stoch
+- Gaël Kakuta
+- Scott Sinclair
+- Josh McEachran
+- Asier del Horno
+- Raheem Sterling
+- Jared Borgetti
+- Celestine Babayaro
+- Mineiro
+- Sam Hutchinson
+- Romelu Lukaku LA CAKA
+- Michael Mancienne
+- Franco Di Santo
+- Albert Ferrer
+- Baba Rahman
+- Patrick Bamford
+- Boy-Boy Mosia
+- Alexis Nicolas
+- Jeffrey Ntuka
+- Terry Phelan
+- Emmanuel Sarki
+- Shaun Cummings
+- Kevin Hitchcock
+- Kepa Arrizabalaga
+- Leon Knight
+- João Félix
+- Kai Havertz
+- Édouard Mendy
+- Andriy Shevchenko
+- Frank Lampard
+- Fernando Torres
+- Arjen Robben
+- Ross Barkley
+- Dennis Wise
+- Islam Feruz
+- Hakim Ziyech
+- James Younghusband
+- Anthony Grant
+- Gus Poyet
+- Lianne Sanderson
+- Magnus Hedman
+- Ed de Goey
+- Mikael Forssell
+- Jürgen Macho
+- Slobodan Rajković
+- Mario Stanić
+- Filipe Luís
+- Mark Bosnich
+- Mario Melchiot
+- Graeme Le Saux
+- Chris Sutton
+- Alexey Smertin
+- Pierluigi Casiraghi
+- Steve Clarke
+- Asmir Begović
+- Jack Cork
+- Marcos Alonso Mendoza
+- Jiří Jarošík
+- Ulises Dávila
+- Diego Costa
+- Alcides Araújo Alves
+- Jackie Groenen
+- Michael Woods
+- Papy Djilobodji
+- Gavin Peacock
+- Steven Hampshire
+- Jan Šebek
+- Timo Werner
+- Andy Myers
+- Jimmy Aggrey
+- Mark Stein
+- Nana Ofori-Twumasi
+- Scott Minto
+- Valerio Di Cesare
+- Warren Cummings
+- Jhon Pírez
+- Trevoh Chalobah
+- William Gallas
+- Nicolas Anelka
+- Oscar
+- Shaun Wright-Phillips
+- Roberto Di Matteo
+- Marcel Desailly
+- Jeffrey Bruma
+- Robert Green
+- Adrian Mutu
+- Mateja Kežman
+- Geremi
+- Ramires
+- Filipe Morais
+- Wayne Bridge
+- Carlo Cudicini
+- Emerson Thome
+- Tiago Mendes
+- Kurt Zouma
+- José Bosingwa
+- Scott Parker
+- Eden Hazard
+- Mark Hughes
+- Henrique Hilário
+- Tore André Flo
+- Alex Rodrigo Dias da Costa
+- Daniel Sturridge
+- Jimmy Floyd Hasselbaink
+- Gary Cahill
+- Juliano Belletti
+- Gianluca Vialli
+- Phil Younghusband
+- Ross Turnbull
+- Fabio Borini
+- Ian Pearce
+- Junior Mendes
+- Liam Bridcutt
+- Sebastian Kneißl
+- Craig Burley
+- Michael Duberry
+- Michy Batshuayi
+- Neil Sullivan
+- Jon Harley
+- Robert Fleck
+- Alex Kiwomya
+- Walter Figueira
+- Victorien Angban
+- Ben Chilwell
+- Marc Cucurella
+- Florent Malouda
+- Cesc Fàbregas
+- Radamel Falcao
+- Marko Marin
+- Robert Huth
+- Carlton Cole
+- Mark Schwarzer
+- Hernán Crespo
+- Mikel John Obi
+- Christian Panucci
+- Juan Mata
+- Ruud Gullit
+- Raul Meireles
+- Pedro
+- Salomon Kalou
+- Branislav Ivanović
+- Kenneth Omeruo
+- Yuri Zhirkov
+- Claude Makelélé
+- Paulo Ferreira
+- Joe Cole
+- Glen Johnson
+- Eiður Guðjohnsen
+- Yossi Benayoun
+- Khalid Boulahrouz
+- Neil Clement
+- John Spencer
+- Nathan Aké
+- Craig Rocastle
+- Morten Nielsen
+- Danny Drinkwater
+- Mario Pašalić
+- Marcus Bettinelli
+- Russell Kelly
+- Matt Miazga
+- N'Golo Kanté
+- John Swift
+- Dominic Solanke
+- Ruben Loftus-Cheek
+- Álvaro Morata
+- Didier Drogba
+- Tony Cascarino
+- Lassana Diarra
+- Ji So-Yun
+- Didier Deschamps
+- Juan Cuadrado
+- Serey Dié
+- Andy Townsend
+- Adam Phillip
+- Adrian Pettigrew
+- Alan Dickens
+- Andy Dow
+- Anthony Barness
+- Archange Nkumu
+- Billy Clifford
+- Carly Telford
+- Damian Matthew
+- Danny Granville
+- Danny Hollands
+- Danny Woodards
+- Darren Barnard
+- David Lee
+- Davide Zappacosta
+- André Schürrle
+- Gökhan Töre
+- Dmitri Kharine
+- Mbark Boussoufa
+- Ricardo Carvalho
+- Ben Gordon
+- Lee Sawyer
+- Emerson Palmieri
+- Daniel Pappoe
+- Fábio Ferreira
+- Gareth Hall
+- Gemma Bonner
+- Graham Stuart
+- Jamal Blackman
+- Harry Worley
+- Aziz Deen-Conteh
+- George Saville
+- Marko Mitrović
+- Rohan Ince
+- Todd Kane
+- Jay Richardson
+- Jean-Yves Anis
+- Pierre Issa
+- Marco van Ginkel
+- Mal Donaghy
+- Frank Sinclair
+- Deco
+- Filipe Oliveira
+- David Hopkin
+- Bjarne Goldbæk
+- Jes Høgh
+- Erland Johnsen
+- Mateo Kovačić
+- Nuno Morais
+- Joe Dolan
+- Joe Sheerin
+- Joe Tillen
+- Joel Kitamirike
+- Mark Nicholls
+- Mick Harford
+- Neil Shipperley
+- Nick Crittenden
+- Paul Furlong
+- Paul Hughes
+- Wesley Fofana
+- Noni Madueke
+- Gianfranco Zola
+- Antonio Rüdiger
+- Damien Duff
+- Tomáš Kalas
+- Saúl Ñíguez
+- Joe Keenan
+- Yves Ma-Kalambay
+- Slaviša Jokanović
+- Rati Aleksidze
+- Samuele Dalla Bona
+- Jacopo Sala
+- Michael Essien
+- Jakob Kjeldbjerg
+- Marco Ambrosio
+- Gabriele Ambrosetti
+- Danny Philliskirk
+- Conor Clifford
+- Jacob Mellis
+- Andreas Christensen
+- João Pedro
+- Kiernan Dewsbury-Hall
+- Armando Broja
+- Enzo Fernández
+- Caleb Wiley
+- Cole Palmer
+- Jorrel Hato
+- Genesis Antwi
+- Mason Mount
+- Reece James
+- Callum Hudson-Odoi
+- Billy Gilmour
+- Marc Guéhi
+- Conor Gallagher
+- Jake Clarke-Salter
+- Axel Disasi
+- Fikayo Tomori
+- Terry Skiverton
+- Kyle Scott
+- Benoît Badiashile
+- Ian Maatsen
+- Zeke Rowe
+- Malo Gusto
+- Tariq Lamptey
+- Charlie Brown
+- Thibaut Courtois
+- John Terry
+- Enrique de Lucas
+- Nigel Spackman
+- Bernard Lambourde
+- Muzzy Izzet
+- Jody Morris
+- David Rocastle
+- Jimmy Smith
+- Nick Colgan
+- Amin Affane
+- Bertrand Traoré
+- Lenny Pidgeley
+- Rhys Evans
+- Rob Wolleaston
+- Sam Parkin
+- Sam Tillen
+- Sam Walker
+- Stephen Broad
+- Steven Watt
+- Stuart Reddington
+- Stuart Searle

@@ -29,6 +29,15 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Data attribution
+
+The roster for the **95-Point Game** (`data/blues-legends.json`) is built from
+[Wikidata](https://www.wikidata.org), whose data is released under the
+[CC0 public-domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+Player facts (name, seasons, position) are imported via Wikidata's public SPARQL
+endpoint by `scripts/import-blues-legends.mjs`. Player prices and ratings are
+invented by the project owner for game balance and are not real valuations.
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
