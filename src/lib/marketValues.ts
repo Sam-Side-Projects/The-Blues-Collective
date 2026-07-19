@@ -1,6 +1,3 @@
-import { readFile } from "node:fs/promises";
-import path from "node:path";
-
 export type MarketPlayer = {
   name: string;
   position: string; // GK/DEF/MID/FWD
@@ -8,28 +5,11 @@ export type MarketPlayer = {
   value: number; // €m
 };
 
-type MarketFile = {
-  last_updated_by_hand?: string;
-  squad: MarketPlayer[];
-  targets: MarketPlayer[];
-};
-
 export const WINDOW_BUDGET = 250; // €m starting budget for GM mode
 
-/**
- * Reads data/market-values.json (server-side only). This file is
- * hand-maintained by the site owner — see the comments inside it.
- */
-export async function loadMarketValues(): Promise<MarketFile> {
-  const filePath = path.join(process.cwd(), "data", "market-values.json");
-  const raw = await readFile(filePath, "utf8");
-  const parsed = JSON.parse(raw) as MarketFile;
-  return {
-    last_updated_by_hand: parsed.last_updated_by_hand,
-    squad: (parsed.squad ?? []).filter((p) => p && p.name),
-    targets: (parsed.targets ?? []).filter((p) => p && p.name),
-  };
-}
+// NOTE: the old hand-typed data/market-values.json is no longer read anywhere.
+// Squad values live in the database (squad_players.market_value) and signing
+// fees are proposed by fans — see lib/communityValue.ts.
 
 /**
  * Cost of a single move for budget maths. Fees are now fan-proposed: the user

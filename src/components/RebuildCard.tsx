@@ -2,9 +2,17 @@
 
 import { useState, useTransition } from "react";
 import { timeAgo } from "@/lib/timeAgo";
-import { toggleRebuildVote, deleteRebuild } from "@/app/transfers/actions";
+import { toggleRebuildVote, deleteRebuild, voteOnFee } from "@/app/transfers/actions";
 
 type MovePlayer = { name: string; position: string; club: string; value: number };
+
+/** Vote tally for one proposed fee, keyed by player name within a rebuild. */
+export type FeeVote = {
+  proposalId: string;
+  realistic: number;
+  noChance: number;
+  myVerdict: "realistic" | "no_chance" | null;
+};
 export type RebuildMovesData = {
   sold: MovePlayer[];
   loaned_out: MovePlayer[];
@@ -26,6 +34,7 @@ export type RebuildCardData = {
   isDemo: boolean;
   voteCount: number;
   votedByMe: boolean;
+  fees: Record<string, FeeVote>;
 };
 
 export default function RebuildCard({
@@ -110,7 +119,15 @@ export default function RebuildCard({
       </div>
 
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
-        <MoveList title="In" tone="in" players={[...rebuild.moves.bought, ...rebuild.moves.loaned_in]} loans={rebuild.moves.loaned_in} />
+        <MoveList
+          title="In"
+          tone="in"
+          players={[...rebuild.moves.bought, ...rebuild.moves.loaned_in]}
+          loans={rebuild.moves.loaned_in}
+          fees={rebuild.fees}
+          canVote={!!viewer}
+          onNeedLogin={() => setNotice("Log in to vote on fees.")}
+        />
         <MoveList title="Out" tone="out" players={[...rebuild.moves.sold, ...rebuild.moves.loaned_out]} loans={rebuild.moves.loaned_out} />
       </div>
 
@@ -148,11 +165,17 @@ function MoveList({
   tone,
   players,
   loans,
+  fees,
+  canVote = false,
+  onNeedLogin,
 }: {
   title: string;
   tone: "in" | "out";
   players: MovePlayer[];
   loans: MovePlayer[];
+  fees?: Record<string, FeeVote>;
+  canVote?: boolean;
+  onNeedLogin?: () => void;
 }) {
   const loanNames = new Set(loans.map((l) => l.name));
   return (
@@ -167,21 +190,91 @@ function MoveList({
       {players.length === 0 ? (
         <p className="text-xs text-slate-400">None</p>
       ) : (
-        <ul className="space-y-0.5">
-          {players.map((p) => (
-            <li key={p.name} className="flex items-center gap-1 text-xs text-slate-700">
-              <span className="w-8 shrink-0 text-slate-400">{p.position}</span>
-              <span className="flex-1 truncate">{p.name}</span>
-              {loanNames.has(p.name) && (
-                <span className="rounded bg-slate-100 px-1 text-[10px] text-slate-500">
-                  loan
-                </span>
-              )}
-              <span className="text-slate-400">€{p.value}m</span>
-            </li>
-          ))}
+        <ul className="space-y-1">
+          {players.map((p) => {
+            const fee = fees?.[p.name];
+            return (
+              <li key={p.name} className="text-xs text-slate-700">
+                <div className="flex items-center gap-1">
+                  <span className="w-8 shrink-0 text-slate-400">{p.position}</span>
+                  <span className="flex-1 truncate">{p.name}</span>
+                  {loanNames.has(p.name) && (
+                    <span className="rounded bg-slate-100 px-1 text-[10px] text-slate-500">
+                      loan
+                    </span>
+                  )}
+                  <span className="text-slate-400">€{p.value}m</span>
+                </div>
+                {fee && (
+                  <FeeVoteButtons fee={fee} canVote={canVote} onNeedLogin={onNeedLogin} />
+                )}
+              </li>
+            );
+          })}
         </ul>
       )}
+    </div>
+  );
+}
+
+/** "Is that fee realistic?" — one verdict per fan, click again to undo. */
+function FeeVoteButtons({
+  fee,
+  canVote,
+  onNeedLogin,
+}: {
+  fee: FeeVote;
+  canVote: boolean;
+  onNeedLogin?: () => void;
+}) {
+  const [verdict, setVerdict] = useState(fee.myVerdict);
+  const [yes, setYes] = useState(fee.realistic);
+  const [no, setNo] = useState(fee.noChance);
+  const [pending, startTransition] = useTransition();
+
+  function cast(next: "realistic" | "no_chance") {
+    if (!canVote) {
+      onNeedLogin?.();
+      return;
+    }
+    // Optimistic: undo the old verdict, apply the new one (or clear it).
+    const clearing = verdict === next;
+    if (verdict === "realistic") setYes((n) => n - 1);
+    if (verdict === "no_chance") setNo((n) => n - 1);
+    if (!clearing) {
+      if (next === "realistic") setYes((n) => n + 1);
+      else setNo((n) => n + 1);
+    }
+    setVerdict(clearing ? null : next);
+    startTransition(() => {
+      void voteOnFee(fee.proposalId, next);
+    });
+  }
+
+  return (
+    <div className="ml-8 mt-0.5 flex items-center gap-1">
+      <button
+        onClick={() => cast("realistic")}
+        disabled={pending}
+        className={`rounded px-1.5 py-0.5 text-[10px] font-semibold ${
+          verdict === "realistic"
+            ? "bg-green-600 text-white"
+            : "bg-slate-100 text-slate-500 hover:bg-slate-200"
+        }`}
+      >
+        Realistic {yes > 0 ? yes : ""}
+      </button>
+      <button
+        onClick={() => cast("no_chance")}
+        disabled={pending}
+        className={`rounded px-1.5 py-0.5 text-[10px] font-semibold ${
+          verdict === "no_chance"
+            ? "bg-red-600 text-white"
+            : "bg-slate-100 text-slate-500 hover:bg-slate-200"
+        }`}
+      >
+        Not a chance {no > 0 ? no : ""}
+      </button>
     </div>
   );
 }

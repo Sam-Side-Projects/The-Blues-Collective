@@ -9,6 +9,7 @@ import {
   moveRaise,
   type MarketPlayer,
 } from "@/lib/marketValues";
+import { playerKey, weightedMedianFee } from "@/lib/communityValue";
 
 export type ActionResult = { ok: boolean; message: string };
 
@@ -81,6 +82,84 @@ function tallyMoves(moves: RebuildMoves) {
   return { spend, raised, net, budgetLeft };
 }
 
+/**
+ * Recalculate "Fans say: ~€Xm" for one player from every fee ever proposed for
+ * them, weighted by how many fans called each fee realistic. Derived data, so
+ * it's written with the admin client. Silently does nothing on failure — a
+ * community number is a nice-to-have, never a reason to fail someone's publish.
+ */
+async function recomputeCommunityValue(key: string): Promise<void> {
+  try {
+    const admin = createAdminClient();
+    const { data: proposals } = await admin
+      .from("player_fee_proposals")
+      .select("id, player_name, fee")
+      .eq("player_key", key);
+    if (!proposals || proposals.length === 0) return;
+
+    const { data: votes } = await admin
+      .from("player_fee_votes")
+      .select("proposal_id, verdict")
+      .in(
+        "proposal_id",
+        proposals.map((p) => p.id)
+      );
+
+    const tally = new Map<string, { realistic: number; noChance: number }>();
+    for (const p of proposals) tally.set(p.id, { realistic: 0, noChance: 0 });
+    for (const v of votes ?? []) {
+      const t = tally.get(v.proposal_id);
+      if (!t) continue;
+      if (v.verdict === "realistic") t.realistic++;
+      else t.noChance++;
+    }
+
+    const result = weightedMedianFee(
+      proposals.map((p) => {
+        const t = tally.get(p.id) ?? { realistic: 0, noChance: 0 };
+        return { fee: Number(p.fee), realistic: t.realistic, noChance: t.noChance };
+      })
+    );
+
+    if (!result) {
+      // Not enough agreement yet — show nothing rather than a shaky number.
+      await admin.from("player_community_values").delete().eq("player_key", key);
+      return;
+    }
+
+    await admin.from("player_community_values").upsert(
+      {
+        player_key: key,
+        player_name: proposals[proposals.length - 1].player_name,
+        community_value: result.value,
+        proposal_count: result.count,
+        updated_at: new Date().toISOString(),
+      },
+      { onConflict: "player_key" }
+    );
+  } catch {
+    // Derived data only — never block the user's action on this.
+  }
+}
+
+/**
+ * What fans reckon a player is worth, for context only. The Transfer Centre
+ * shows this as text next to a BLANK fee box — it is never pre-filled, so it
+ * can't anchor the fee someone types.
+ */
+export async function getCommunityValue(
+  name: string
+): Promise<{ value: number; count: number } | null> {
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("player_community_values")
+    .select("community_value, proposal_count")
+    .eq("player_key", playerKey(name))
+    .maybeSingle();
+  if (!data) return null;
+  return { value: Number(data.community_value), count: data.proposal_count };
+}
+
 /** Publish a rebuild to the Community Rebuilds board. */
 export async function publishRebuild(input: {
   title: string;
@@ -147,6 +226,36 @@ export async function publishRebuild(input: {
     return { ok: false, message: "Could not publish your rebuild. Please try again." };
   }
 
+  // Every fee the fan committed to becomes a permanent proposal others can
+  // vote on, and feeds the "Fans say" number for that player.
+  const incoming = [
+    ...input.moves.bought.map((p) => ({ p, kind: "buy" as const })),
+    ...input.moves.loaned_in.map((p) => ({ p, kind: "loan" as const })),
+  ];
+  const proposalRows = incoming
+    .filter(({ p }) => Number.isFinite(p.value) && p.value > 0)
+    .map(({ p, kind }) => ({
+      player_key: playerKey(p.name),
+      player_name: p.name,
+      position: p.position,
+      club: p.club,
+      move_kind: kind,
+      fee: Math.max(0, Math.min(1000, p.value)),
+      rebuild_id: rebuild.id,
+      proposer: user.id,
+    }));
+
+  if (proposalRows.length > 0) {
+    const { error: propError } = await supabase
+      .from("player_fee_proposals")
+      .insert(proposalRows);
+    if (!propError) {
+      for (const key of new Set(proposalRows.map((r) => r.player_key))) {
+        await recomputeCommunityValue(key);
+      }
+    }
+  }
+
   if (input.postToFeed) {
     await supabase.from("posts").insert({
       author: user.id,
@@ -187,6 +296,59 @@ export async function toggleRebuildVote(rebuildId: string): Promise<ActionResult
       .from("rebuild_votes")
       .insert({ rebuild_id: rebuildId, user_id: user.id });
   }
+
+  revalidatePath("/transfers/rebuilds");
+  return { ok: true, message: "" };
+}
+
+/**
+ * Vote on whether a proposed fee is realistic. One verdict per fan per fee;
+ * clicking the same verdict again clears it. Recomputes the player's "Fans say"
+ * number afterwards.
+ */
+export async function voteOnFee(
+  proposalId: string,
+  verdict: "realistic" | "no_chance"
+): Promise<ActionResult> {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { ok: false, message: "Please log in to vote." };
+
+  const { data: existing } = await supabase
+    .from("player_fee_votes")
+    .select("verdict")
+    .eq("proposal_id", proposalId)
+    .eq("user_id", user.id)
+    .maybeSingle();
+
+  if (existing?.verdict === verdict) {
+    await supabase
+      .from("player_fee_votes")
+      .delete()
+      .eq("proposal_id", proposalId)
+      .eq("user_id", user.id);
+  } else if (existing) {
+    await supabase
+      .from("player_fee_votes")
+      .update({ verdict })
+      .eq("proposal_id", proposalId)
+      .eq("user_id", user.id);
+  } else {
+    const { error } = await supabase
+      .from("player_fee_votes")
+      .insert({ proposal_id: proposalId, user_id: user.id, verdict });
+    if (error) return { ok: false, message: "Could not record your vote." };
+  }
+
+  const admin = createAdminClient();
+  const { data: proposal } = await admin
+    .from("player_fee_proposals")
+    .select("player_key")
+    .eq("id", proposalId)
+    .maybeSingle();
+  if (proposal) await recomputeCommunityValue(proposal.player_key);
 
   revalidatePath("/transfers/rebuilds");
   return { ok: true, message: "" };

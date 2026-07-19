@@ -61,6 +61,51 @@ export default async function RebuildsPage() {
     }
   }
 
+  // Fee proposals for these rebuilds, so each signing's fee can be voted on.
+  // Keyed rebuild id -> player name -> the proposal and its tally.
+  const feesByRebuild = new Map<string, RebuildCardData["fees"]>();
+  if (rebuilds.length > 0) {
+    const { data: proposals } = await supabase
+      .from("player_fee_proposals")
+      .select("id, rebuild_id, player_name, fee")
+      .in(
+        "rebuild_id",
+        rebuilds.map((r) => r.id)
+      );
+
+    const tally = new Map<string, { realistic: number; noChance: number; mine: string | null }>();
+    if (proposals && proposals.length > 0) {
+      for (const p of proposals) tally.set(p.id, { realistic: 0, noChance: 0, mine: null });
+      const { data: feeVotes } = await supabase
+        .from("player_fee_votes")
+        .select("proposal_id, user_id, verdict")
+        .in(
+          "proposal_id",
+          proposals.map((p) => p.id)
+        );
+      for (const v of feeVotes ?? []) {
+        const t = tally.get(v.proposal_id);
+        if (!t) continue;
+        if (v.verdict === "realistic") t.realistic++;
+        else t.noChance++;
+        if (viewer && v.user_id === viewer.id) t.mine = v.verdict;
+      }
+
+      for (const p of proposals) {
+        if (!p.rebuild_id) continue;
+        const t = tally.get(p.id)!;
+        const forRebuild = feesByRebuild.get(p.rebuild_id) ?? {};
+        forRebuild[p.player_name] = {
+          proposalId: p.id,
+          realistic: t.realistic,
+          noChance: t.noChance,
+          myVerdict: (t.mine as "realistic" | "no_chance" | null) ?? null,
+        };
+        feesByRebuild.set(p.rebuild_id, forRebuild);
+      }
+    }
+  }
+
   const cards: RebuildCardData[] = rebuilds.map((r) => ({
     id: r.id,
     ownerId: r.owner,
@@ -75,6 +120,7 @@ export default async function RebuildsPage() {
     isDemo: r.is_demo,
     voteCount: voteCounts.get(r.id) ?? 0,
     votedByMe: votedByMe.has(r.id),
+    fees: feesByRebuild.get(r.id) ?? {},
   }));
 
   // Sort by total votes (desc), then newest.

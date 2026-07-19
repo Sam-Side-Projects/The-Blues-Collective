@@ -420,6 +420,87 @@ create policy "Users remove own votes"
   on public.rebuild_votes for delete using (auth.uid() = user_id);
 
 -- =============================================================
+-- PLAYER FEE PROPOSALS  (every fee a fan has committed to in a rebuild)
+-- This is the permanent proposal history. Fees are FAN OPINIONS — they are
+-- never looked up from anywhere and are not real valuations.
+-- player_key is the lower-cased, accent-stripped name used to group the same
+-- player across rebuilds (the feed writes names as "C. Palmer").
+-- =============================================================
+create table if not exists public.player_fee_proposals (
+  id          uuid primary key default gen_random_uuid(),
+  player_key  text not null,
+  player_name text not null,
+  position    text,
+  club        text,
+  move_kind   text not null default 'buy',   -- 'buy' or 'loan'
+  fee         numeric not null,              -- €m, typed by the fan
+  rebuild_id  uuid references public.rebuilds (id) on delete cascade,
+  proposer    uuid references public.profiles (id) on delete set null,
+  created_at  timestamptz not null default now()
+);
+
+alter table public.player_fee_proposals enable row level security;
+
+drop policy if exists "Fee proposals viewable by everyone" on public.player_fee_proposals;
+create policy "Fee proposals viewable by everyone"
+  on public.player_fee_proposals for select using (true);
+
+drop policy if exists "Users insert own fee proposals" on public.player_fee_proposals;
+create policy "Users insert own fee proposals"
+  on public.player_fee_proposals for insert with check (auth.uid() = proposer);
+
+create index if not exists idx_fee_proposals_key on public.player_fee_proposals (player_key);
+create index if not exists idx_fee_proposals_rebuild on public.player_fee_proposals (rebuild_id);
+
+-- =============================================================
+-- PLAYER FEE VOTES  (is that fee realistic? one verdict per user per fee)
+-- =============================================================
+create table if not exists public.player_fee_votes (
+  proposal_id uuid not null references public.player_fee_proposals (id) on delete cascade,
+  user_id     uuid not null references public.profiles (id) on delete cascade,
+  verdict     text not null,                 -- 'realistic' or 'no_chance'
+  created_at  timestamptz not null default now(),
+  primary key (proposal_id, user_id)
+);
+
+alter table public.player_fee_votes enable row level security;
+
+drop policy if exists "Fee votes viewable by everyone" on public.player_fee_votes;
+create policy "Fee votes viewable by everyone"
+  on public.player_fee_votes for select using (true);
+
+drop policy if exists "Users cast own fee votes" on public.player_fee_votes;
+create policy "Users cast own fee votes"
+  on public.player_fee_votes for insert with check (auth.uid() = user_id);
+
+drop policy if exists "Users change own fee votes" on public.player_fee_votes;
+create policy "Users change own fee votes"
+  on public.player_fee_votes for update using (auth.uid() = user_id);
+
+drop policy if exists "Users remove own fee votes" on public.player_fee_votes;
+create policy "Users remove own fee votes"
+  on public.player_fee_votes for delete using (auth.uid() = user_id);
+
+-- =============================================================
+-- PLAYER COMMUNITY VALUES  ("Fans say: ~€Xm")
+-- Derived from the proposals above once enough fans have weighed in. Shown as
+-- context only — never pre-filled into anyone's fee box.
+-- =============================================================
+create table if not exists public.player_community_values (
+  player_key      text primary key,
+  player_name     text not null,
+  community_value numeric not null,
+  proposal_count  int not null default 0,
+  updated_at      timestamptz not null default now()
+);
+
+alter table public.player_community_values enable row level security;
+
+drop policy if exists "Community values viewable by everyone" on public.player_community_values;
+create policy "Community values viewable by everyone"
+  on public.player_community_values for select using (true);
+
+-- =============================================================
 -- CONFIRMED LINEUPS  (official team sheet; filled by matchday sync)
 -- =============================================================
 create table if not exists public.confirmed_lineups (

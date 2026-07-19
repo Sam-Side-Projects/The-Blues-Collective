@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState, useTransition } from "react";
 import {
   publishRebuild,
   searchPlayers,
+  getCommunityValue,
   type RebuildMoves,
   type MovePlayer,
   type SearchedPlayer,
@@ -22,6 +23,9 @@ type Target = {
   age: number | null;
   mode: "buy" | "loan";
   fee: string; // kept as a string so the box can start blank (no anchor)
+  // What other fans have proposed for this player. Shown as context next to
+  // the blank box — deliberately never used to pre-fill it.
+  community: { value: number; count: number } | null;
 };
 
 export default function GmMode({
@@ -127,9 +131,25 @@ export default function GmMode({
     if (inShortlist(p.name)) return;
     setTargets((prev) => [
       ...prev,
-      { name: p.name, position: p.position, club: p.club, age: p.age, mode: "buy", fee: "" },
+      {
+        name: p.name,
+        position: p.position,
+        club: p.club,
+        age: p.age,
+        mode: "buy",
+        fee: "",
+        community: null,
+      },
     ]);
     setMsg(null);
+    // Look up what fans have proposed before — for context only. The fee box
+    // stays blank on purpose so this number can't anchor your own call.
+    void getCommunityValue(p.name).then((c) => {
+      if (!c) return;
+      setTargets((prev) =>
+        prev.map((t) => (t.name === p.name ? { ...t, community: c } : t))
+      );
+    });
   }
   function removeTarget(name: string) {
     setTargets((prev) => prev.filter((t) => t.name !== name));
@@ -515,7 +535,8 @@ function TargetRow({
   onRemove: () => void;
 }) {
   return (
-    <li className="flex flex-wrap items-center gap-2 rounded-lg border border-brand/40 bg-blue-50 px-3 py-2 text-sm">
+    <li className="rounded-lg border border-brand/40 bg-blue-50 px-3 py-2 text-sm">
+    <div className="flex flex-wrap items-center gap-2">
       <span className="w-9 shrink-0 text-xs font-bold text-slate-400">
         {target.position}
       </span>
@@ -569,6 +590,17 @@ function TargetRow({
       >
         ✕
       </button>
+    </div>
+
+    {target.community && (
+      <p className="ml-9 mt-1 text-[11px] text-slate-500">
+        Fans say: ~€{target.community.value}m{" "}
+        <span className="text-slate-400">
+          (from {target.community.count} proposal
+          {target.community.count === 1 ? "" : "s"}) — your call, not a valuation
+        </span>
+      </p>
+    )}
     </li>
   );
 }
