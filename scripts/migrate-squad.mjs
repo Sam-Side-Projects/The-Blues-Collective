@@ -126,10 +126,15 @@ const { error: deactErr } = await supabase
 if (deactErr) console.log("Warning — could not deactivate departed players:", deactErr.message);
 
 // ---- 4a. Delete the old hand-seeded squad rows (no API id) ----
+// NOTE: players added by hand later (e.g. Nicolas Jackson, added because the
+// feed doesn't list him) also have no API id. They're protected by the
+// market_value check below — the old seed rows never had one set here.
+// This step already ran once; it should not normally need re-running.
 const { error: delSquadErr, count: delSquad } = await supabase
   .from("squad_players")
   .delete({ count: "exact" })
-  .is("api_id", null);
+  .is("api_id", null)
+  .is("market_value", null);
 if (delSquadErr) console.log("Warning — could not delete seeded squad rows:", delSquadErr.message);
 
 // ---- 4b. Delete old placeholder fixtures (negative id, not hand-added) ----

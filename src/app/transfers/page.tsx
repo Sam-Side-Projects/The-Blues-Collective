@@ -23,11 +23,15 @@ export default async function TransfersPage() {
     .order("position", { ascending: true })
     .order("shirt_number", { ascending: true });
 
+  // Every player must carry a value — nobody is ever worth €0. A brand-new
+  // signing arrives from the feed without one, so fall back to a small floor
+  // until a real estimate is set.
+  const VALUE_FLOOR = 2;
   const squad = (squadData ?? []).map((p) => ({
     name: p.name,
     position: p.position,
     club: "Chelsea",
-    value: p.market_value == null ? 0 : Number(p.market_value),
+    value: Math.max(VALUE_FLOOR, Number(p.market_value ?? 0)),
   }));
 
   const { data: news } = await supabase
