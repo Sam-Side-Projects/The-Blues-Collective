@@ -1,29 +1,47 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
-import { publishRebuild, type RebuildMoves, type MovePlayer } from "./actions";
+import { useEffect, useMemo, useState, useTransition } from "react";
+import {
+  publishRebuild,
+  searchPlayers,
+  type RebuildMoves,
+  type MovePlayer,
+  type SearchedPlayer,
+} from "./actions";
 
 const WINDOW_BUDGET = 250;
-const LOAN_IN_RATE = 0.1;
+const POSITIONS = ["GK", "DEF", "MID", "FWD"];
 
 type Player = MovePlayer;
 
+// A player the user wants to sign, with the fee they've proposed for the deal.
+type Target = {
+  name: string;
+  position: string;
+  club: string;
+  age: number | null;
+  mode: "buy" | "loan";
+  fee: string; // kept as a string so the box can start blank (no anchor)
+};
+
 export default function GmMode({
   squad,
-  targets,
   isLoggedIn,
-  lastUpdated,
 }: {
   squad: Player[];
-  targets: Player[];
   isLoggedIn: boolean;
-  lastUpdated?: string;
 }) {
-  // Sets of player names in each bucket.
+  // Outgoing: squad players the user sells or loans out (values from our DB).
   const [sold, setSold] = useState<Set<string>>(new Set());
   const [loanedOut, setLoanedOut] = useState<Set<string>>(new Set());
-  const [bought, setBought] = useState<Set<string>>(new Set());
-  const [loanedIn, setLoanedIn] = useState<Set<string>>(new Set());
+
+  // Incoming: a shortlist of targets the user is signing, each with a fee.
+  const [targets, setTargets] = useState<Target[]>([]);
+
+  // Search state.
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState<SearchedPlayer[]>([]);
+  const [searching, startSearch] = useTransition();
 
   const [title, setTitle] = useState("");
   const [note, setNote] = useState("");
@@ -35,24 +53,40 @@ export default function GmMode({
     () => new Map(squad.map((p) => [p.name, p])),
     [squad]
   );
-  const targetByName = useMemo(
-    () => new Map(targets.map((p) => [p.name, p])),
-    [targets]
-  );
 
-  // Budget maths (mirrors the server).
+  // Debounced player search — runs 300ms after the user stops typing.
+  useEffect(() => {
+    const q = query.trim();
+    if (q.length < 2) {
+      setResults([]);
+      return;
+    }
+    const t = setTimeout(() => {
+      startSearch(async () => {
+        const found = await searchPlayers(q);
+        setResults(found);
+      });
+    }, 300);
+    return () => clearTimeout(t);
+  }, [query]);
+
+  // Budget maths (mirrors the server): sales raise money, signings spend it.
   const raised = useMemo(() => {
     let r = 0;
     for (const n of sold) r += squadByName.get(n)?.value ?? 0;
     return Math.round(r * 10) / 10;
   }, [sold, squadByName]);
 
+  const feeOf = (t: Target) => {
+    const n = parseFloat(t.fee);
+    return Number.isFinite(n) && n > 0 ? n : 0;
+  };
+
   const spend = useMemo(() => {
     let s = 0;
-    for (const n of bought) s += targetByName.get(n)?.value ?? 0;
-    for (const n of loanedIn) s += (targetByName.get(n)?.value ?? 0) * LOAN_IN_RATE;
+    for (const t of targets) s += feeOf(t);
     return Math.round(s * 10) / 10;
-  }, [bought, loanedIn, targetByName]);
+  }, [targets]);
 
   const budgetLeft = Math.round((WINDOW_BUDGET + raised - spend) * 10) / 10;
   const net = Math.round((spend - raised) * 10) / 10;
@@ -69,8 +103,6 @@ export default function GmMode({
     setter(next);
     setMsg(null);
   }
-
-  // For squad players: a player can be either sold OR loaned out, not both.
   function toggleSell(name: string) {
     if (loanedOut.has(name)) {
       const lo = new Set(loanedOut);
@@ -87,54 +119,61 @@ export default function GmMode({
     }
     toggle(loanedOut, setLoanedOut, name);
   }
-  // For targets: buy OR loan-in, not both. Attempting to buy when over budget is blocked.
-  function toggleBuy(name: string) {
-    if (loanedIn.has(name)) {
-      const li = new Set(loanedIn);
-      li.delete(name);
-      setLoanedIn(li);
-    }
-    if (!bought.has(name)) {
-      const cost = targetByName.get(name)?.value ?? 0;
-      if (budgetLeft - cost < 0) {
-        setMsg({
-          ok: false,
-          text: `Can't sign ${name} (€${cost}m) — you'd go €${Math.abs(
-            Math.round((budgetLeft - cost) * 10) / 10
-          )}m over budget. Sell a player first.`,
-        });
-        return;
-      }
-    }
-    toggle(bought, setBought, name);
+
+  // ---- Shortlist management ----
+  const inShortlist = (name: string) => targets.some((t) => t.name === name);
+
+  function addTarget(p: { name: string; position: string; club: string; age: number | null }) {
+    if (inShortlist(p.name)) return;
+    setTargets((prev) => [
+      ...prev,
+      { name: p.name, position: p.position, club: p.club, age: p.age, mode: "buy", fee: "" },
+    ]);
+    setMsg(null);
   }
-  function toggleLoanIn(name: string) {
-    if (bought.has(name)) {
-      const b = new Set(bought);
-      b.delete(name);
-      setBought(b);
+  function removeTarget(name: string) {
+    setTargets((prev) => prev.filter((t) => t.name !== name));
+  }
+  function setTargetMode(name: string, mode: "buy" | "loan") {
+    setTargets((prev) => prev.map((t) => (t.name === name ? { ...t, mode } : t)));
+  }
+  function setTargetFee(name: string, fee: string) {
+    setTargets((prev) => prev.map((t) => (t.name === name ? { ...t, fee } : t)));
+    setMsg(null);
+  }
+
+  // ---- Manual add (for a player not in the search pool) ----
+  const [manName, setManName] = useState("");
+  const [manPos, setManPos] = useState("MID");
+  const [manClub, setManClub] = useState("");
+  function addManual() {
+    const name = manName.trim();
+    const club = manClub.trim();
+    if (!name) return;
+    if (inShortlist(name)) {
+      setMsg({ ok: false, text: `${name} is already on your shortlist.` });
+      return;
     }
-    if (!loanedIn.has(name)) {
-      const cost = (targetByName.get(name)?.value ?? 0) * LOAN_IN_RATE;
-      if (budgetLeft - cost < 0) {
-        setMsg({
-          ok: false,
-          text: `Can't loan ${name} (€${Math.round(cost * 10) / 10}m fee) — that goes over budget.`,
-        });
-        return;
-      }
-    }
-    toggle(loanedIn, setLoanedIn, name);
+    addTarget({ name, position: manPos, club: club || "Unknown club", age: null });
+    setManName("");
+    setManClub("");
+    setManPos("MID");
   }
 
   function buildMoves(): RebuildMoves {
-    const pick = (names: Set<string>, src: Map<string, Player>) =>
-      [...names].map((n) => src.get(n)!).filter(Boolean);
+    const sq = (names: Set<string>) =>
+      [...names].map((n) => squadByName.get(n)!).filter(Boolean);
+    const asMove = (t: Target): MovePlayer => ({
+      name: t.name,
+      position: t.position,
+      club: t.club,
+      value: feeOf(t),
+    });
     return {
-      sold: pick(sold, squadByName),
-      loaned_out: pick(loanedOut, squadByName),
-      bought: pick(bought, targetByName),
-      loaned_in: pick(loanedIn, targetByName),
+      sold: sq(sold),
+      loaned_out: sq(loanedOut),
+      bought: targets.filter((t) => t.mode === "buy").map(asMove),
+      loaned_in: targets.filter((t) => t.mode === "loan").map(asMove),
     };
   }
 
@@ -151,16 +190,15 @@ export default function GmMode({
       if (r.ok) {
         setSold(new Set());
         setLoanedOut(new Set());
-        setBought(new Set());
-        setLoanedIn(new Set());
+        setTargets([]);
         setTitle("");
         setNote("");
+        setQuery("");
       }
     });
   }
 
-  const totalMoves =
-    sold.size + loanedOut.size + bought.size + loanedIn.size;
+  const totalMoves = sold.size + loanedOut.size + targets.length;
 
   return (
     <div className="space-y-6">
@@ -174,7 +212,7 @@ export default function GmMode({
         </div>
         {overBudget && (
           <p className="mt-2 text-center text-sm font-semibold text-red-600">
-            Over budget — sell a player or drop a signing before publishing.
+            Over budget — sell a player or lower a fee before publishing.
           </p>
         )}
       </div>
@@ -197,51 +235,146 @@ export default function GmMode({
           </h2>
           <p className="mb-2 text-xs text-slate-500">
             Selling adds a player&apos;s value to your budget. Loaning out
-            doesn&apos;t raise money. Values are community estimates.
+            doesn&apos;t raise money.
           </p>
           <ul className="space-y-1">
             {squad.map((p) => (
-              <PlayerRow
+              <SquadRow
                 key={p.name}
                 player={p}
-                leftLabel="Sell"
-                leftActive={sold.has(p.name)}
-                onLeft={() => toggleSell(p.name)}
-                rightLabel="Loan out"
-                rightActive={loanedOut.has(p.name)}
-                onRight={() => toggleLoanOut(p.name)}
+                soldActive={sold.has(p.name)}
+                onSell={() => toggleSell(p.name)}
+                loanActive={loanedOut.has(p.name)}
+                onLoan={() => toggleLoanOut(p.name)}
               />
             ))}
+            {squad.length === 0 && (
+              <li className="rounded-lg border border-dashed border-slate-300 p-4 text-center text-sm text-slate-500">
+                Squad awaiting sync.
+              </li>
+            )}
           </ul>
         </section>
 
-        {/* Targets — buy / loan in */}
+        {/* Targets — search, shortlist, propose fees */}
         <section>
           <h2 className="mb-2 font-bold text-brand-dark">
-            Transfer targets — buy or loan in
+            Sign players — search and propose a fee
           </h2>
           <p className="mb-2 text-xs text-slate-500">
-            Buying costs the full value. Loaning in costs 10% of value.
+            Search any Premier League player, add them, then type the fee
+            you&apos;d pay. There&apos;s no &ldquo;correct&rdquo; price — it&apos;s
+            your call.
           </p>
-          <ul className="space-y-1">
-            {targets.map((p) => (
-              <PlayerRow
-                key={p.name}
-                player={p}
-                leftLabel="Buy"
-                leftActive={bought.has(p.name)}
-                onLeft={() => toggleBuy(p.name)}
-                rightLabel={`Loan (€${Math.round(p.value * LOAN_IN_RATE * 10) / 10}m)`}
-                rightActive={loanedIn.has(p.name)}
-                onRight={() => toggleLoanIn(p.name)}
+
+          {/* Search box */}
+          <div className="relative">
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search a player (e.g. Wharton)…"
+              className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+            />
+            {query.trim().length >= 2 && (
+              <div className="absolute z-10 mt-1 max-h-72 w-full overflow-auto rounded-lg border border-slate-200 bg-white shadow-lg">
+                {searching && (
+                  <p className="px-3 py-2 text-sm text-slate-400">Searching…</p>
+                )}
+                {!searching && results.length === 0 && (
+                  <p className="px-3 py-2 text-sm text-slate-400">
+                    No players found. You can add them by hand below.
+                  </p>
+                )}
+                {results.map((r) => (
+                  <button
+                    key={`${r.name}-${r.club}`}
+                    onClick={() => {
+                      addTarget(r);
+                      setQuery("");
+                    }}
+                    disabled={inShortlist(r.name)}
+                    className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:bg-slate-50 disabled:opacity-40"
+                  >
+                    <span className="w-9 shrink-0 text-xs font-bold text-slate-400">
+                      {r.position}
+                    </span>
+                    <span className="flex-1 truncate">
+                      <span className="font-medium text-slate-800">{r.name}</span>
+                      <span className="ml-1 text-xs text-slate-400">
+                        {r.club}
+                        {r.age != null ? ` · ${r.age}y` : ""}
+                      </span>
+                    </span>
+                    <span className="shrink-0 text-xs font-semibold text-brand">
+                      {inShortlist(r.name) ? "Added" : "+ Add"}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Manual add */}
+          <details className="mt-2 rounded-lg border border-slate-200 bg-slate-50 p-2 text-sm">
+            <summary className="cursor-pointer text-xs font-semibold text-slate-600">
+              Can&apos;t find someone? Add them by hand
+            </summary>
+            <div className="mt-2 flex flex-wrap gap-2">
+              <input
+                value={manName}
+                onChange={(e) => setManName(e.target.value)}
+                placeholder="Player name"
+                className="min-w-0 flex-1 rounded border border-slate-300 px-2 py-1 text-sm focus:border-brand focus:outline-none"
               />
-            ))}
-          </ul>
-          {lastUpdated && (
-            <p className="mt-2 text-xs text-slate-400">
-              Values last updated by hand: {lastUpdated}
-            </p>
-          )}
+              <select
+                value={manPos}
+                onChange={(e) => setManPos(e.target.value)}
+                className="rounded border border-slate-300 px-2 py-1 text-sm focus:border-brand focus:outline-none"
+              >
+                {POSITIONS.map((p) => (
+                  <option key={p} value={p}>
+                    {p}
+                  </option>
+                ))}
+              </select>
+              <input
+                value={manClub}
+                onChange={(e) => setManClub(e.target.value)}
+                placeholder="Club"
+                className="min-w-0 flex-1 rounded border border-slate-300 px-2 py-1 text-sm focus:border-brand focus:outline-none"
+              />
+              <button
+                onClick={addManual}
+                className="rounded bg-slate-700 px-3 py-1 text-xs font-semibold text-white hover:bg-slate-800"
+              >
+                Add
+              </button>
+            </div>
+          </details>
+
+          {/* Shortlist */}
+          <div className="mt-4">
+            <h3 className="mb-1 text-sm font-semibold text-slate-700">
+              Your shortlist ({targets.length})
+            </h3>
+            {targets.length === 0 ? (
+              <p className="rounded-lg border border-dashed border-slate-300 p-4 text-center text-sm text-slate-500">
+                Search above to add players you&apos;d sign.
+              </p>
+            ) : (
+              <ul className="space-y-1">
+                {targets.map((t) => (
+                  <TargetRow
+                    key={t.name}
+                    target={t}
+                    onMode={(m) => setTargetMode(t.name, m)}
+                    onFee={(v) => setTargetFee(t.name, v)}
+                    onRemove={() => removeTarget(t.name)}
+                  />
+                ))}
+              </ul>
+            )}
+          </div>
         </section>
       </div>
 
@@ -320,24 +453,20 @@ function Stat({
   );
 }
 
-function PlayerRow({
+function SquadRow({
   player,
-  leftLabel,
-  leftActive,
-  onLeft,
-  rightLabel,
-  rightActive,
-  onRight,
+  soldActive,
+  onSell,
+  loanActive,
+  onLoan,
 }: {
   player: Player;
-  leftLabel: string;
-  leftActive: boolean;
-  onLeft: () => void;
-  rightLabel: string;
-  rightActive: boolean;
-  onRight: () => void;
+  soldActive: boolean;
+  onSell: () => void;
+  loanActive: boolean;
+  onLoan: () => void;
 }) {
-  const dimmed = leftActive || rightActive;
+  const dimmed = soldActive || loanActive;
   return (
     <li
       className={`flex items-center gap-2 rounded-lg border px-3 py-2 text-sm ${
@@ -355,24 +484,90 @@ function PlayerRow({
         €{player.value}m
       </span>
       <button
-        onClick={onLeft}
+        onClick={onSell}
         className={`shrink-0 rounded px-2 py-1 text-xs font-semibold ${
-          leftActive
-            ? "bg-brand text-white"
-            : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+          soldActive ? "bg-brand text-white" : "bg-slate-100 text-slate-600 hover:bg-slate-200"
         }`}
       >
-        {leftLabel}
+        Sell
       </button>
       <button
-        onClick={onRight}
+        onClick={onLoan}
         className={`shrink-0 rounded px-2 py-1 text-xs font-semibold ${
-          rightActive
-            ? "bg-brand-dark text-white"
-            : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+          loanActive ? "bg-brand-dark text-white" : "bg-slate-100 text-slate-600 hover:bg-slate-200"
         }`}
       >
-        {rightLabel}
+        Loan out
+      </button>
+    </li>
+  );
+}
+
+function TargetRow({
+  target,
+  onMode,
+  onFee,
+  onRemove,
+}: {
+  target: Target;
+  onMode: (m: "buy" | "loan") => void;
+  onFee: (v: string) => void;
+  onRemove: () => void;
+}) {
+  return (
+    <li className="flex flex-wrap items-center gap-2 rounded-lg border border-brand/40 bg-blue-50 px-3 py-2 text-sm">
+      <span className="w-9 shrink-0 text-xs font-bold text-slate-400">
+        {target.position}
+      </span>
+      <span className="min-w-0 flex-1 truncate">
+        <span className="font-medium text-slate-800">{target.name}</span>
+        <span className="ml-1 text-xs text-slate-400">
+          {target.club}
+          {target.age != null ? ` · ${target.age}y` : ""}
+        </span>
+      </span>
+
+      {/* Buy / Loan toggle */}
+      <div className="flex shrink-0 overflow-hidden rounded border border-slate-300">
+        <button
+          onClick={() => onMode("buy")}
+          className={`px-2 py-1 text-xs font-semibold ${
+            target.mode === "buy" ? "bg-brand text-white" : "bg-white text-slate-600"
+          }`}
+        >
+          Buy
+        </button>
+        <button
+          onClick={() => onMode("loan")}
+          className={`px-2 py-1 text-xs font-semibold ${
+            target.mode === "loan" ? "bg-brand-dark text-white" : "bg-white text-slate-600"
+          }`}
+        >
+          Loan
+        </button>
+      </div>
+
+      {/* Fee input — starts blank, no suggested value */}
+      <label className="flex shrink-0 items-center gap-1 text-xs text-slate-500">
+        €
+        <input
+          type="number"
+          min={0}
+          step={1}
+          value={target.fee}
+          onChange={(e) => onFee(e.target.value)}
+          placeholder="fee"
+          className="w-16 rounded border border-slate-300 px-2 py-1 text-sm text-slate-800 focus:border-brand focus:outline-none"
+        />
+        m
+      </label>
+
+      <button
+        onClick={onRemove}
+        className="shrink-0 rounded px-2 py-1 text-xs font-semibold text-slate-400 hover:bg-slate-200 hover:text-slate-700"
+        aria-label={`Remove ${target.name}`}
+      >
+        ✕
       </button>
     </li>
   );

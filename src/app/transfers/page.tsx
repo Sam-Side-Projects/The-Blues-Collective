@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { getCurrentUser } from "@/lib/auth";
-import { loadMarketValues, WINDOW_BUDGET } from "@/lib/marketValues";
+import { WINDOW_BUDGET } from "@/lib/marketValues";
 import GmMode from "./GmMode";
 import NewsAdmin from "./NewsAdmin";
 
@@ -10,8 +10,6 @@ export const dynamic = "force-dynamic";
 
 export default async function TransfersPage() {
   const user = await getCurrentUser();
-  // Targets still come from the hand file (Phase 3 replaces this with search).
-  const { targets, last_updated_by_hand } = await loadMarketValues();
 
   const supabase = await createClient();
 
@@ -93,15 +91,10 @@ export default async function TransfersPage() {
         </div>
       )}
 
-      <GmMode
-        squad={squad}
-        targets={targets}
-        isLoggedIn={!!user}
-        lastUpdated={last_updated_by_hand}
-      />
+      <GmMode squad={squad} isLoggedIn={!!user} />
 
       <p className="mt-6 text-center text-xs text-slate-400">
-        Market values are community estimates, maintained by hand.
+        Transfer fees are proposed by fans, not real valuations.
       </p>
     </div>
   );

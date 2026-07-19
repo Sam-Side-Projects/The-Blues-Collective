@@ -15,7 +15,6 @@ type MarketFile = {
 };
 
 export const WINDOW_BUDGET = 250; // €m starting budget for GM mode
-export const LOAN_IN_COST_RATE = 0.1; // loan-in costs 10% of value
 
 /**
  * Reads data/market-values.json (server-side only). This file is
@@ -32,13 +31,17 @@ export async function loadMarketValues(): Promise<MarketFile> {
   };
 }
 
-/** Cost of a single move for budget maths. */
+/**
+ * Cost of a single move for budget maths. Fees are now fan-proposed: the user
+ * types the fee for the specific deal (a permanent buy or a loan), and it's
+ * charged in full either way. Loans naturally cost less because the fan enters
+ * a smaller loan fee.
+ */
 export function moveCost(
-  kind: "buy" | "loan_in",
+  _kind: "buy" | "loan_in",
   value: number
 ): number {
-  if (kind === "buy") return value;
-  return Math.round(value * LOAN_IN_COST_RATE * 10) / 10; // loan-in = 10% of value
+  return value;
 }
 
 /** Money raised by an outgoing move (sales raise value; loans raise nothing). */

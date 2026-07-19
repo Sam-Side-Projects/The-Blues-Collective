@@ -135,6 +135,48 @@ create policy "Squad viewable by everyone"
   on public.squad_players for select using (true);
 
 -- =============================================================
+-- PL TEAMS  (the 20 current Premier League clubs; used by the transfer
+-- search. team_id is API-Football's stable id; names come from the feed.)
+-- =============================================================
+create table if not exists public.pl_teams (
+  team_id     bigint primary key,          -- API-Football team id (stable)
+  name        text not null,
+  updated_at  timestamptz not null default now()
+);
+
+alter table public.pl_teams enable row level security;
+
+drop policy if exists "PL teams viewable by everyone" on public.pl_teams;
+create policy "PL teams viewable by everyone"
+  on public.pl_teams for select using (true);
+
+-- =============================================================
+-- PL PLAYERS  (every player across the 20 PL squads; the Transfer Centre
+-- search pool. Refreshed weekly by the sync job. No market value here —
+-- fees are proposed by fans, added in the Transfer Centre.)
+-- =============================================================
+create table if not exists public.pl_players (
+  id           bigserial primary key,
+  api_id       bigint unique,               -- API-Football player id
+  name         text not null,
+  age          int,
+  position     text not null,               -- GK / DEF / MID / FWD
+  club         text not null,
+  team_id      bigint,                      -- API-Football team id
+  is_active    boolean not null default true,
+  updated_at   timestamptz not null default now()
+);
+
+alter table public.pl_players enable row level security;
+
+drop policy if exists "PL players viewable by everyone" on public.pl_players;
+create policy "PL players viewable by everyone"
+  on public.pl_players for select using (true);
+
+create index if not exists idx_pl_players_name on public.pl_players (name);
+create index if not exists idx_pl_players_active on public.pl_players (is_active);
+
+-- =============================================================
 -- LINEUPS  (a user's picked XI; may double as a prediction)
 -- =============================================================
 create table if not exists public.lineups (

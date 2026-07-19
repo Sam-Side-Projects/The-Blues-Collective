@@ -16,7 +16,8 @@
       "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
       "Bash(npm run:*)",
       "Bash(node -e ':*)",
-      "Bash(node scripts/migrate-squad.mjs)"
+      "Bash(node scripts/migrate-squad.mjs)",
+      "Bash(node scripts/sync-pl-players.mjs)"
     ]
   }
 }

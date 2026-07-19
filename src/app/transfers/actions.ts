@@ -19,6 +19,39 @@ export type MovePlayer = {
   value: number;
 };
 
+export type SearchedPlayer = {
+  name: string;
+  position: string;
+  club: string;
+  age: number | null;
+};
+
+/**
+ * Search the Premier League player pool for the Transfer Centre. Matches on
+ * name (case-insensitive, partial), returns up to 20. Reads only our own DB —
+ * the pool is kept fresh by the weekly sync job.
+ */
+export async function searchPlayers(query: string): Promise<SearchedPlayer[]> {
+  const q = query.trim();
+  if (q.length < 2) return [];
+
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("pl_players")
+    .select("name, position, club, age")
+    .eq("is_active", true)
+    .ilike("name", `%${q}%`)
+    .order("name", { ascending: true })
+    .limit(20);
+
+  return (data ?? []).map((p) => ({
+    name: p.name,
+    position: p.position,
+    club: p.club,
+    age: p.age,
+  }));
+}
+
 export type RebuildMoves = {
   sold: MovePlayer[];
   loaned_out: MovePlayer[];
@@ -31,12 +64,16 @@ export type RebuildMoves = {
  * never trust the client's numbers, and enforce the budget rule.
  */
 function tallyMoves(moves: RebuildMoves) {
+  // Fees are fan-proposed now, so sanitise every value to a sane, non-negative
+  // number before it touches the budget maths.
+  const clean = (v: number) =>
+    Number.isFinite(v) ? Math.max(0, Math.min(1000, v)) : 0;
   let spend = 0;
   let raised = 0;
-  for (const p of moves.bought) spend += moveCost("buy", p.value);
-  for (const p of moves.loaned_in) spend += moveCost("loan_in", p.value);
-  for (const p of moves.sold) raised += moveRaise("sell", p.value);
-  for (const p of moves.loaned_out) raised += moveRaise("loan_out", p.value);
+  for (const p of moves.bought) spend += moveCost("buy", clean(p.value));
+  for (const p of moves.loaned_in) spend += moveCost("loan_in", clean(p.value));
+  for (const p of moves.sold) raised += moveRaise("sell", clean(p.value));
+  for (const p of moves.loaned_out) raised += moveRaise("loan_out", clean(p.value));
   spend = Math.round(spend * 10) / 10;
   raised = Math.round(raised * 10) / 10;
   const budgetLeft = Math.round((WINDOW_BUDGET + raised - spend) * 10) / 10;

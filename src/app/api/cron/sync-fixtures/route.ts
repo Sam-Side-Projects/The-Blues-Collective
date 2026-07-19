@@ -8,6 +8,7 @@
 import { NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/server";
 import { cronAuthorized, logApiCall, todaysCallCount } from "@/lib/cron";
+import { syncPremierLeaguePlayersSlice } from "@/lib/plSync";
 
 export const dynamic = "force-dynamic";
 
@@ -38,7 +39,7 @@ export async function GET(req: Request) {
 
   const admin = createAdminClient();
   const headers = { "X-Auth-Token": token };
-  const result = { fixtures: 0, standings: 0, squad: 0, errors: [] as string[] };
+  const result = { fixtures: 0, standings: 0, squad: 0, plPlayers: 0, errors: [] as string[] };
 
   // ---------- 1. Chelsea matches (fixtures + results) ----------
   try {
@@ -191,6 +192,19 @@ export async function GET(req: Request) {
     const msg = e instanceof Error ? e.message : "unknown";
     result.errors.push(`squad: ${msg}`);
     await logApiCall(admin, "api-football", "players/squads", "error", msg);
+  }
+
+  // ---------- 4. Premier League player pool (rolling refresh) ----------
+  // Powers the Transfer Centre search. The free tier allows only ~10 requests
+  // a minute, so we refresh a few clubs each day and cover all 20 across the
+  // week, rather than hammering them all at once.
+  try {
+    const pl = await syncPremierLeaguePlayersSlice(admin);
+    result.plPlayers = pl.players;
+    for (const err of pl.errors) result.errors.push(`pl: ${err}`);
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : "unknown";
+    result.errors.push(`pl: ${msg}`);
   }
 
   return NextResponse.json({ ok: result.errors.length === 0, ...result });
