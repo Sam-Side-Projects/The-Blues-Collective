@@ -23,6 +23,29 @@ export function cronAuthorized(req: Request): boolean {
   return url.searchParams.get("key") === secret;
 }
 
+/**
+ * How many times we've actually called an API today (rows logged 'ok' or
+ * 'error' — 'skipped' rows didn't spend a request). Used to stay under the
+ * free-tier daily budget: if we're near the cap, a sync skips rather than fails.
+ */
+export async function todaysCallCount(
+  admin: SupabaseClient,
+  apiName: "football-data" | "api-football"
+): Promise<number> {
+  try {
+    const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD (UTC)
+    const { count } = await admin
+      .from("api_call_log")
+      .select("id", { count: "exact", head: true })
+      .eq("api_name", apiName)
+      .in("status", ["ok", "error"])
+      .gte("created_at", `${today}T00:00:00Z`);
+    return count ?? 0;
+  } catch {
+    return 0; // never block a sync just because the count query failed
+  }
+}
+
 /** Record an external API call so we can watch usage against free-tier limits. */
 export async function logApiCall(
   admin: SupabaseClient,

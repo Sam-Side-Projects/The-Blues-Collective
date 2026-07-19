@@ -66,9 +66,10 @@ $$;
 -- FIXTURES  (Premier League matches; filled by sync job later)
 -- =============================================================
 create table if not exists public.fixtures (
-  id             bigint primary key,          -- id from football-data.org
+  id             bigint primary key,          -- football-data.org id (positive) or a manual/admin id (negative)
   season         text,
   matchday       int,
+  competition    text,                        -- e.g. 'Premier League', 'Pre-season friendly'
   home_team      text not null,
   away_team      text not null,
   chelsea_home   boolean,                     -- true if Chelsea is home team
@@ -77,8 +78,12 @@ create table if not exists public.fixtures (
   status         text default 'SCHEDULED',    -- SCHEDULED / IN_PLAY / FINISHED
   home_score     int,
   away_score     int,
+  is_manual      boolean not null default false, -- true = added by hand in /admin/fixtures
   updated_at     timestamptz not null default now()
 );
+-- If the table already exists from an earlier deploy, add the new columns:
+alter table public.fixtures add column if not exists competition text;
+alter table public.fixtures add column if not exists is_manual boolean not null default false;
 
 alter table public.fixtures enable row level security;
 
@@ -472,12 +477,102 @@ create policy "Only admin reads api log"
   on public.api_call_log for select using (public.is_admin());
 
 -- =============================================================
+-- BLUES LEGENDS  (roster for the 95-Point Game)
+-- Facts (name/seasons/slots) imported from Wikidata; game numbers
+-- (price_m/attack/defence) are founder-invented balance values.
+-- Public can read; only admin can edit (via /admin/legends).
+-- =============================================================
+create table if not exists public.blues_legends (
+  id           bigserial primary key,
+  wikidata_id  text unique,                    -- nullable for manually added players
+  name         text not null,
+  seasons      jsonb not null default '[]'::jsonb,  -- ["1996-97","1997-98", ...]
+  slots        jsonb not null default '[]'::jsonb,  -- ["GK"] / ["CB","CM"] etc.
+  price_m      numeric,                         -- £m, founder-set for balance
+  attack       int,                             -- 0-100
+  defence      int,                             -- 0-100
+  excluded     boolean not null default false,  -- hide from the game if true
+  note         text,                            -- e.g. 'PLACEHOLDER — founder to review'
+  updated_at   timestamptz not null default now()
+);
+
+alter table public.blues_legends enable row level security;
+
+drop policy if exists "Legends viewable by everyone" on public.blues_legends;
+create policy "Legends viewable by everyone"
+  on public.blues_legends for select using (true);
+
+drop policy if exists "Only admin manages legends" on public.blues_legends;
+create policy "Only admin manages legends"
+  on public.blues_legends for all using (public.is_admin()) with check (public.is_admin());
+
+-- =============================================================
+-- GAME SEASONS  (the pool of Chelsea seasons the wheel can land on)
+-- Public read; admin write. Seeded from the seasons present in the roster.
+-- =============================================================
+create table if not exists public.game_seasons (
+  season      text primary key,                -- e.g. '2004-05'
+  is_active   boolean not null default true,   -- toggle a season off the wheel
+  updated_at  timestamptz not null default now()
+);
+
+alter table public.game_seasons enable row level security;
+
+drop policy if exists "Game seasons viewable by everyone" on public.game_seasons;
+create policy "Game seasons viewable by everyone"
+  on public.game_seasons for select using (true);
+
+drop policy if exists "Only admin manages game seasons" on public.game_seasons;
+create policy "Only admin manages game seasons"
+  on public.game_seasons for all using (public.is_admin()) with check (public.is_admin());
+
+-- =============================================================
+-- GAME RESULTS  (a user's 95-Point Game attempt)
+-- Public read (for the weekly leaderboard); users write only their own.
+-- week_key is null for free-practice attempts, set for the weekly challenge.
+-- =============================================================
+create table if not exists public.game_results (
+  id                uuid primary key default gen_random_uuid(),
+  owner             uuid not null references public.profiles (id) on delete cascade,
+  week_key          text,                       -- e.g. '2026-W29'; null = practice
+  is_practice       boolean not null default true,
+  picks             jsonb not null,             -- 6 signings: [{slot,name,season,priceM,attack,defence}]
+  spent             numeric not null default 0,
+  respins           int not null default 0,
+  projected_points  numeric not null default 0,
+  projected_conceded numeric,
+  best_points       numeric,                    -- regret reveal: best possible for the draw
+  created_at        timestamptz not null default now()
+);
+
+alter table public.game_results enable row level security;
+
+drop policy if exists "Game results viewable by everyone" on public.game_results;
+create policy "Game results viewable by everyone"
+  on public.game_results for select using (true);
+
+drop policy if exists "Users insert own game results" on public.game_results;
+create policy "Users insert own game results"
+  on public.game_results for insert with check (auth.uid() = owner);
+
+drop policy if exists "Users delete own game results (or admin)" on public.game_results;
+create policy "Users delete own game results (or admin)"
+  on public.game_results for delete using (auth.uid() = owner or public.is_admin());
+
+-- One scored attempt per user per weekly challenge (practice rows exempt).
+create unique index if not exists uniq_game_results_weekly
+  on public.game_results (owner, week_key)
+  where week_key is not null;
+
+-- =============================================================
 -- Helpful indexes
 -- =============================================================
 create index if not exists idx_posts_created_at on public.posts (created_at desc);
 create index if not exists idx_comments_post on public.comments (post_id);
 create index if not exists idx_lineups_owner on public.lineups (owner);
 create index if not exists idx_fixtures_kickoff on public.fixtures (kickoff);
+create index if not exists idx_game_results_week on public.game_results (week_key);
+create index if not exists idx_legends_name on public.blues_legends (name);
 
 -- =============================================================
 -- Done. Next: run seed.sql (optional demo content) if you want the

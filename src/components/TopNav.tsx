@@ -9,6 +9,7 @@ const SECTIONS = [
   { href: "/articles", label: "Long Reads" },
   { href: "/transfers", label: "Transfer Centre" },
   { href: "/predictions", label: "Predictions" },
+  { href: "/95-point-game", label: "95-Point Game" },
 ];
 
 export default async function TopNav() {

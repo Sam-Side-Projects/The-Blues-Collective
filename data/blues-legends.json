@@ -12,9 +12,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -29,9 +29,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -44,9 +44,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -61,9 +61,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -76,9 +76,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -125,9 +125,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -144,9 +144,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -162,9 +162,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -211,9 +211,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -225,9 +225,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -251,9 +251,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -273,9 +273,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -290,9 +290,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -306,9 +306,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -322,9 +322,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -337,9 +337,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -354,9 +354,9 @@
         "CM",
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 66,
+      "defence": 39,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -376,9 +376,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -393,9 +393,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 94,
+      "defence": 38,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -410,9 +410,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -431,9 +431,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -446,9 +446,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -461,9 +461,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -479,9 +479,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -497,9 +497,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -516,9 +516,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 44,
+      "defence": 90,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -531,9 +531,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -548,9 +548,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 90,
+      "defence": 50,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -567,9 +567,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -589,9 +589,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 50,
+      "defence": 96,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -604,9 +604,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -620,9 +620,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -638,9 +638,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -655,9 +655,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -681,9 +681,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -699,9 +699,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -718,9 +718,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 44,
+      "defence": 90,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -736,9 +736,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -753,9 +753,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -771,9 +771,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -789,9 +789,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -807,9 +807,9 @@
         "ST",
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 76,
+      "defence": 28,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -825,9 +825,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -847,9 +847,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -863,9 +863,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -877,9 +877,9 @@
         "2002-03"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -892,9 +892,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -915,9 +915,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 50,
+      "defence": 96,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -932,9 +932,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -952,9 +952,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 90,
+      "defence": 50,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -971,9 +971,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -995,9 +995,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1014,9 +1014,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1032,9 +1032,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1049,9 +1049,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1071,9 +1071,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1096,11 +1096,11 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 46,
+      "defence": 92,
       "excluded": false,
-      "note": "PLACEHOLDER — founder to review"
+      "note": null
     },
     {
       "wikidataId": "Q17499",
@@ -1115,9 +1115,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 76,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1134,9 +1134,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1153,9 +1153,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1178,9 +1178,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1193,9 +1193,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1208,9 +1208,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1223,9 +1223,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1242,9 +1242,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1259,9 +1259,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1293,9 +1293,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1312,9 +1312,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 76,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1328,9 +1328,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1346,9 +1346,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 96,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1364,9 +1364,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1384,9 +1384,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1403,9 +1403,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1418,9 +1418,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 2,
+      "defence": 62,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1434,9 +1434,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1450,9 +1450,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1465,9 +1465,9 @@
         "2005-06"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1484,9 +1484,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1499,9 +1499,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1517,9 +1517,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1536,9 +1536,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1551,9 +1551,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1568,9 +1568,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1583,9 +1583,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1599,9 +1599,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1616,9 +1616,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1631,9 +1631,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 2,
+      "defence": 62,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1649,9 +1649,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1666,9 +1666,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1686,9 +1686,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1708,9 +1708,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 44,
+      "defence": 90,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1724,9 +1724,9 @@
         "1997-98"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1742,9 +1742,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1758,9 +1758,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1773,9 +1773,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1788,9 +1788,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1811,9 +1811,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 76,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1826,9 +1826,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1849,9 +1849,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 100,
+      "defence": 44,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1866,9 +1866,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 100,
+      "defence": 44,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1879,9 +1879,9 @@
         "2023-24"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1900,9 +1900,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1917,9 +1917,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1935,9 +1935,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1955,9 +1955,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1974,9 +1974,9 @@
         "1998-99"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -1995,9 +1995,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 96,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2012,11 +2012,11 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 22,
+      "defence": 92,
       "excluded": false,
-      "note": "PLACEHOLDER — founder to review"
+      "note": null
     },
     {
       "wikidataId": "Q299768",
@@ -2029,9 +2029,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2049,9 +2049,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2066,9 +2066,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2084,9 +2084,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2099,9 +2099,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2116,9 +2116,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2134,9 +2134,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2150,9 +2150,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2165,9 +2165,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2183,9 +2183,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 76,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2230,9 +2230,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2249,9 +2249,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2270,9 +2270,9 @@
         "CM",
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 49,
+      "defence": 73,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2286,9 +2286,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2301,9 +2301,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2319,9 +2319,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 94,
+      "defence": 38,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2338,9 +2338,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2355,9 +2355,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2370,9 +2370,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2383,9 +2383,9 @@
         "2005-06"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2401,9 +2401,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2421,9 +2421,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 90,
+      "defence": 50,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2437,9 +2437,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2486,9 +2486,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2513,9 +2513,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 76,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2532,9 +2532,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 44,
+      "defence": 90,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2552,9 +2552,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2568,9 +2568,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2586,9 +2586,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2604,9 +2604,9 @@
         "2014-15"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2622,9 +2622,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2643,9 +2643,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2660,9 +2660,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2675,9 +2675,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2689,9 +2689,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2738,9 +2738,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2754,9 +2754,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2767,9 +2767,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2786,9 +2786,9 @@
         "CM",
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 49,
+      "defence": 73,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2807,9 +2807,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 100,
+      "defence": 44,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2824,9 +2824,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 100,
+      "defence": 44,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2873,9 +2873,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2891,9 +2891,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 44,
+      "defence": 90,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2907,9 +2907,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2923,9 +2923,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2938,9 +2938,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2959,9 +2959,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2974,9 +2974,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -2992,9 +2992,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3010,9 +3010,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 82,
+      "defence": 42,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3059,9 +3059,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3075,9 +3075,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3097,9 +3097,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3116,9 +3116,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3135,9 +3135,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3150,9 +3150,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3177,9 +3177,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3205,9 +3205,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3224,9 +3224,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3239,9 +3239,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3256,9 +3256,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3271,9 +3271,9 @@
         "2010-11"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3286,9 +3286,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 66,
+      "defence": 26,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3311,9 +3311,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3329,9 +3329,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3358,9 +3358,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3371,9 +3371,9 @@
         "2005-06"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3385,9 +3385,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3401,9 +3401,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3416,9 +3416,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3433,9 +3433,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3448,9 +3448,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3466,9 +3466,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3486,9 +3486,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3502,9 +3502,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3518,9 +3518,9 @@
         "2003-04"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3536,9 +3536,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3564,9 +3564,9 @@
         "CM",
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 74,
+      "defence": 47,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3613,9 +3613,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3629,9 +3629,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3647,9 +3647,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 100,
+      "defence": 44,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3665,9 +3665,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3680,9 +3680,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3695,9 +3695,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3711,9 +3711,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3737,9 +3737,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3758,9 +3758,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3779,9 +3779,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3794,9 +3794,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3812,9 +3812,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3830,9 +3830,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3847,9 +3847,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3864,9 +3864,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3883,9 +3883,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3910,9 +3910,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3943,9 +3943,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 50,
+      "defence": 96,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3961,9 +3961,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3980,9 +3980,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -3996,9 +3996,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4014,9 +4014,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4032,9 +4032,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4049,9 +4049,9 @@
         "2014-15"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4065,9 +4065,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4082,9 +4082,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 100,
+      "defence": 44,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4099,9 +4099,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4114,9 +4114,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4129,9 +4129,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 2,
+      "defence": 62,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4147,9 +4147,9 @@
         "ST",
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 92,
+      "defence": 44,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4162,9 +4162,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4180,9 +4180,9 @@
         "CM",
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 66,
+      "defence": 39,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4206,9 +4206,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4227,9 +4227,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4248,9 +4248,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 26,
+      "defence": 86,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4271,9 +4271,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4287,9 +4287,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4302,9 +4302,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4324,9 +4324,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4340,9 +4340,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4356,9 +4356,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4371,9 +4371,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4388,9 +4388,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4406,9 +4406,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4424,9 +4424,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4445,9 +4445,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 44,
+      "defence": 90,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4472,9 +4472,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4490,9 +4490,9 @@
         "CM",
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 41,
+      "defence": 65,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4507,9 +4507,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4523,9 +4523,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4539,9 +4539,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4557,9 +4557,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4584,9 +4584,9 @@
         "CM",
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 74,
+      "defence": 47,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4599,9 +4599,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 2,
+      "defence": 62,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4615,9 +4615,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4633,9 +4633,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4651,9 +4651,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4667,9 +4667,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4684,9 +4684,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4704,9 +4704,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 50,
+      "defence": 96,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4719,9 +4719,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 2,
+      "defence": 62,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4734,9 +4734,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 2,
+      "defence": 62,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4747,9 +4747,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4762,9 +4762,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4782,9 +4782,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4802,9 +4802,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4821,9 +4821,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4841,9 +4841,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4859,9 +4859,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4875,9 +4875,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4892,9 +4892,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4913,9 +4913,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4929,9 +4929,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4948,9 +4948,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4966,9 +4966,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -4981,9 +4981,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5002,9 +5002,9 @@
         "CM",
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 80,
+      "defence": 61,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5034,9 +5034,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5049,9 +5049,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5068,9 +5068,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5088,9 +5088,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5104,9 +5104,9 @@
         "CM",
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 58,
+      "defence": 31,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5122,9 +5122,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5142,9 +5142,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5165,9 +5165,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 76,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5191,9 +5191,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5210,9 +5210,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5228,9 +5228,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5249,9 +5249,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5264,9 +5264,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5285,9 +5285,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5302,9 +5302,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5327,9 +5327,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5345,9 +5345,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5360,9 +5360,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5376,9 +5376,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 74,
+      "defence": 34,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5392,9 +5392,9 @@
         "ST",
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 68,
+      "defence": 20,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5410,9 +5410,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 76,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5425,9 +5425,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5442,9 +5442,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5461,9 +5461,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 82,
+      "defence": 42,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5482,9 +5482,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 76,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5497,9 +5497,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5516,9 +5516,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5545,9 +5545,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5564,9 +5564,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5581,9 +5581,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5596,9 +5596,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 2,
+      "defence": 62,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5615,9 +5615,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5635,9 +5635,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5652,9 +5652,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5671,11 +5671,29 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 94,
+      "defence": 38,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
+    },
+    {
+      "wikidataId": "Q100144350",
+      "name": "Nicolas Jackson",
+      "seasons": [
+        "2023-24",
+        "2024-25",
+        "2026-27"
+      ],
+      "slots": [
+        "ST"
+      ],
+      "priceM": 75,
+      "attack": 94,
+      "defence": 38,
+      "excluded": false,
+      "manual": true,
+      "note": "PLACEHOLDER — founder to review. Manually added (Wikidata had no dates). On loan 2025-26 (season omitted)."
     },
     {
       "wikidataId": "Q725894",
@@ -5689,9 +5707,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5705,9 +5723,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 74,
+      "defence": 34,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5722,9 +5740,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5740,9 +5758,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5758,9 +5776,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5776,9 +5794,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5791,9 +5809,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5810,9 +5828,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5826,9 +5844,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5842,9 +5860,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5862,9 +5880,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5885,9 +5903,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5904,9 +5922,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 94,
+      "defence": 38,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5921,9 +5939,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 74,
+      "defence": 34,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5946,9 +5964,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 32,
+      "defence": 92,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5964,9 +5982,9 @@
         "CM",
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 66,
+      "defence": 39,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5980,9 +5998,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -5995,9 +6013,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6010,9 +6028,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6025,9 +6043,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6043,9 +6061,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 90,
+      "defence": 50,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6063,9 +6081,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6079,9 +6097,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6094,9 +6112,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6112,9 +6130,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6135,9 +6153,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 44,
+      "defence": 90,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6154,9 +6172,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6173,9 +6191,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6193,9 +6211,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 50,
+      "defence": 96,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6212,9 +6230,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6229,9 +6247,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6244,9 +6262,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 2,
+      "defence": 62,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6262,9 +6280,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 44,
+      "defence": 90,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6280,9 +6298,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6300,9 +6318,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6317,9 +6335,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6338,9 +6356,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6356,9 +6374,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6374,9 +6392,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 82,
+      "defence": 42,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6392,9 +6410,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6415,9 +6433,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6430,9 +6448,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6447,9 +6465,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 76,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6470,9 +6488,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6488,9 +6506,9 @@
         "2011-12"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6508,9 +6526,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6555,9 +6573,9 @@
         "2026-27"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6573,9 +6591,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6590,9 +6608,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6608,9 +6626,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6623,9 +6641,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6640,9 +6658,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6655,9 +6673,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6672,9 +6690,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6687,9 +6705,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6706,9 +6724,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6725,9 +6743,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6740,9 +6758,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6756,9 +6774,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6773,9 +6791,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6794,9 +6812,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6810,9 +6828,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6828,9 +6846,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6844,9 +6862,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6864,9 +6882,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6879,9 +6897,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6896,9 +6914,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6912,9 +6930,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6928,9 +6946,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6944,9 +6962,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 10,
+      "defence": 70,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6959,9 +6977,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6974,9 +6992,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -6990,9 +7008,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7007,9 +7025,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7025,9 +7043,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7047,9 +7065,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 100,
+      "attack": 32,
+      "defence": 92,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7064,9 +7082,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7079,9 +7097,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 46,
+      "defence": 48,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7099,9 +7117,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7115,9 +7133,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 94,
+      "defence": 38,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7145,9 +7163,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7161,9 +7179,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7191,9 +7209,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7206,9 +7224,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7255,9 +7273,9 @@
       "slots": [
         "AM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 82,
+      "defence": 42,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7272,9 +7290,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 78,
+      "defence": 22,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7289,9 +7307,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7312,9 +7330,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7330,9 +7348,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7345,9 +7363,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 20,
+      "defence": 66,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7366,9 +7384,9 @@
         "2020-21"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7385,9 +7403,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 62,
+      "defence": 64,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7434,9 +7452,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7449,9 +7467,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7466,9 +7484,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7486,9 +7504,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 44,
+      "defence": 90,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7505,9 +7523,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7524,9 +7542,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7544,9 +7562,9 @@
         "2020-21"
       ],
       "slots": [],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 75,
+      "attack": 70,
+      "defence": 72,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7568,9 +7586,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 18,
+      "defence": 78,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7586,9 +7604,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 36,
+      "defence": 82,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7603,9 +7621,9 @@
       "slots": [
         "CM"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 54,
+      "defence": 56,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7618,9 +7636,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 70,
+      "defence": 14,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7634,9 +7652,9 @@
       "slots": [
         "CB"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 22,
+      "attack": 28,
+      "defence": 74,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7649,9 +7667,9 @@
       "slots": [
         "GK"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 10,
+      "attack": 2,
+      "defence": 62,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     },
@@ -7667,9 +7685,9 @@
       "slots": [
         "ST"
       ],
-      "priceM": null,
-      "attack": null,
-      "defence": null,
+      "priceM": 45,
+      "attack": 86,
+      "defence": 30,
       "excluded": false,
       "note": "PLACEHOLDER — founder to review"
     }

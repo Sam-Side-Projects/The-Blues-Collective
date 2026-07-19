@@ -10,9 +10,28 @@ export const dynamic = "force-dynamic";
 
 export default async function TransfersPage() {
   const user = await getCurrentUser();
-  const { squad, targets, last_updated_by_hand } = await loadMarketValues();
+  // Targets still come from the hand file (Phase 3 replaces this with search).
+  const { targets, last_updated_by_hand } = await loadMarketValues();
 
   const supabase = await createClient();
+
+  // The current Chelsea squad is now read from the database (kept fresh by the
+  // daily sync), not from a hand-typed file. Departed players are marked
+  // inactive by the sync, so they never show here.
+  const { data: squadData } = await supabase
+    .from("squad_players")
+    .select("name, position, market_value")
+    .eq("is_active", true)
+    .order("position", { ascending: true })
+    .order("shirt_number", { ascending: true });
+
+  const squad = (squadData ?? []).map((p) => ({
+    name: p.name,
+    position: p.position,
+    club: "Chelsea",
+    value: p.market_value == null ? 0 : Number(p.market_value),
+  }));
+
   const { data: news } = await supabase
     .from("transfer_news")
     .select("id, headline, source_url, news_date")

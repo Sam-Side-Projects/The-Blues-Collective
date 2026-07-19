@@ -14,7 +14,9 @@
       "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\" cd \"C:/Users/Sam/Desktop/Blue Collective\" npm install @supabase/supabase-js @supabase/ssr)",
       "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\" cd \"C:/Users/Sam/Desktop/Blue Collective\" npm run build)",
       "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(node -e ':*)",
+      "Bash(node scripts/migrate-squad.mjs)"
     ]
   }
 }

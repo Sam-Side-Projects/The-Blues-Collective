@@ -2,7 +2,7 @@ import { createClient } from "@/lib/supabase/server";
 
 /**
  * Shows the next upcoming Chelsea fixture, read only from our own DB.
- * Fails quietly (renders nothing) if no fixtures exist yet.
+ * If no fixture is scheduled it says so plainly — it NEVER invents one.
  */
 export default async function NextFixtureBanner() {
   let next: {
@@ -27,7 +27,18 @@ export default async function NextFixtureBanner() {
     next = null;
   }
 
-  if (!next) return null;
+  if (!next) {
+    return (
+      <div className="bg-brand text-white">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-3 gap-y-1 px-4 py-2 text-sm">
+          <span className="font-semibold uppercase tracking-wide text-blue-100">
+            Next up
+          </span>
+          <span className="text-blue-100">No fixture scheduled</span>
+        </div>
+      </div>
+    );
+  }
 
   const kickoff = new Date(next.kickoff);
   const when = kickoff.toLocaleString(undefined, {
