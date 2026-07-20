@@ -13,6 +13,7 @@ export default async function LineupPage() {
     .from("squad_players")
     .select("id, name, position, shirt_number, market_value")
     .eq("is_active", true)
+    .eq("is_hidden", false)
     .order("position", { ascending: true })
     .order("shirt_number", { ascending: true });
 

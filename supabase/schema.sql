@@ -119,14 +119,19 @@ create policy "League table viewable by everyone"
 -- =============================================================
 create table if not exists public.squad_players (
   id            bigserial primary key,
-  api_id        bigint unique,               -- id from API-Football (nullable while seeded)
+  api_id        bigint unique,               -- id from API-Football (nullable = added by hand)
   name          text not null,
   position      text not null,               -- GK / DEF / MID / FWD
   shirt_number  int,
-  market_value  numeric,                     -- €m, from market-values.json
+  market_value  numeric,                     -- €m, founder-set community estimate
   is_active     boolean not null default true,
+  -- Hand override: hide a player the feed still wrongly lists as ours (e.g. a
+  -- player who's transferred but the data source hasn't caught up). The sync
+  -- never touches this column, so the choice sticks.
+  is_hidden     boolean not null default false,
   updated_at    timestamptz not null default now()
 );
+alter table public.squad_players add column if not exists is_hidden boolean not null default false;
 
 alter table public.squad_players enable row level security;
 

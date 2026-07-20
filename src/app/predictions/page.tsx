@@ -52,6 +52,7 @@ export default async function PredictionsPage() {
     .from("squad_players")
     .select("id, name, position, shirt_number")
     .eq("is_active", true)
+    .eq("is_hidden", false)
     .order("position", { ascending: true })
     .order("shirt_number", { ascending: true });
   const squad: SquadPlayer[] = (squadData ?? []).map((p) => ({

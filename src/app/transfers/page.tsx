@@ -15,24 +15,30 @@ export default async function TransfersPage() {
 
   // The current Chelsea squad is now read from the database (kept fresh by the
   // daily sync), not from a hand-typed file. Departed players are marked
-  // inactive by the sync, so they never show here.
+  // inactive by the sync; is_hidden is a hand override for players the feed
+  // still wrongly lists as ours.
   const { data: squadData } = await supabase
     .from("squad_players")
     .select("name, position, market_value")
     .eq("is_active", true)
+    .eq("is_hidden", false)
     .order("position", { ascending: true })
     .order("shirt_number", { ascending: true });
 
   // Every player must carry a value — nobody is ever worth €0. A brand-new
-  // signing arrives from the feed without one, so fall back to a small floor
-  // until a real estimate is set.
-  const VALUE_FLOOR = 2;
-  const squad = (squadData ?? []).map((p) => ({
-    name: p.name,
-    position: p.position,
-    club: "Chelsea",
-    value: Math.max(VALUE_FLOOR, Number(p.market_value ?? 0)),
-  }));
+  // signing arrives from the feed without one, so it falls back to a small
+  // placeholder. Real values are used as-is, however small (some youth players
+  // are valued under €1m), so this never overrides a deliberate figure.
+  const VALUE_FALLBACK = 2;
+  const squad = (squadData ?? []).map((p) => {
+    const value = Number(p.market_value ?? 0);
+    return {
+      name: p.name,
+      position: p.position,
+      club: "Chelsea",
+      value: value > 0 ? value : VALUE_FALLBACK,
+    };
+  });
 
   const { data: news } = await supabase
     .from("transfer_news")
