@@ -53,6 +53,8 @@ export default function LineupBuilder({
     null
   );
   const [busy, setBusy] = useState(false);
+  // Id of the most recently saved lineup, so we can link to its share page.
+  const [savedId, setSavedId] = useState<string | null>(null);
 
   const slots = FORMATIONS[formation];
   const activeSlotDef = slots.find((s) => s.id === activeSlot) ?? null;
@@ -150,6 +152,8 @@ export default function LineupBuilder({
       postToFeed,
     });
     setMessage({ ok: res.ok, text: res.message });
+    // Keep the id so we can offer a shareable link to the saved lineup.
+    setSavedId(res.ok ? (res.lineupId ?? null) : null);
     setBusy(false);
   }
 
@@ -261,15 +265,23 @@ export default function LineupBuilder({
         </div>
 
         {message && (
-          <p
+          <div
             className={`rounded-lg px-3 py-2 text-sm ${
               message.ok
                 ? "bg-green-50 text-green-700"
                 : "bg-red-50 text-red-700"
             }`}
           >
-            {message.text}
-          </p>
+            <p>{message.text}</p>
+            {savedId && (
+              <a
+                href={`/lineup/${savedId}`}
+                className="mt-1 inline-block font-semibold underline"
+              >
+                View &amp; share your XI →
+              </a>
+            )}
+          </div>
         )}
       </div>
 

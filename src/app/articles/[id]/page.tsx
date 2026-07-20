@@ -4,6 +4,8 @@ import { createClient } from "@/lib/supabase/server";
 import { getCurrentUser } from "@/lib/auth";
 import { readingMinutes } from "@/lib/excerpt";
 import { timeAgo } from "@/lib/timeAgo";
+import { absoluteUrl } from "@/lib/siteUrl";
+import ShareButtons from "@/components/ShareButtons";
 import ArticleActions from "./ArticleActions";
 
 export const dynamic = "force-dynamic";
@@ -29,10 +31,16 @@ export async function generateMetadata({
     .select("title")
     .eq("id", id)
     .maybeSingle();
+  const title = data?.title ?? "Article";
   return {
-    title: data?.title
-      ? `${data.title} — The Blues Collective`
-      : "Article — The Blues Collective",
+    title: `${title} — The Blues Collective`,
+    openGraph: {
+      title,
+      description: "A Chelsea long read on The Blues Collective.",
+      url: absoluteUrl(`/articles/${id}`),
+      type: "article",
+    },
+    twitter: { card: "summary_large_image", title },
   };
 }
 
@@ -111,6 +119,13 @@ export default async function ArticlePage({
           clappedByMe={clappedByMe}
           viewer={user ? { id: user.id, isAdmin: user.isAdmin } : null}
         />
+
+        <div className="mt-4 border-t border-slate-200 pt-4">
+          <ShareButtons
+            url={absoluteUrl(`/articles/${article.id}`)}
+            title={`${article.title} — The Blues Collective`}
+          />
+        </div>
       </article>
     </div>
   );

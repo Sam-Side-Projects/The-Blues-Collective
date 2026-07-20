@@ -15,13 +15,20 @@ export default function MiniPitch({
   formation,
   slots,
   title,
+  large = false,
 }: {
   formation: string;
   slots: SavedSlot[];
   title?: string | null;
+  /** Bigger tokens and readable names, for a full lineup page. */
+  large?: boolean;
 }) {
   const def = FORMATIONS[formation as FormationName] ?? FORMATIONS["4-3-3"];
   const byId = new Map(slots.map((s) => [s.slotId, s]));
+  const tokenClass = large ? "h-9 w-9 text-[11px]" : "h-4 w-4 text-[7px]";
+  const nameClass = large
+    ? "mt-0.5 max-w-[86px] truncate text-[11px] font-semibold text-white"
+    : "mt-px max-w-[52px] truncate text-[7px] font-medium text-white";
 
   return (
     <div className="overflow-hidden rounded-lg border border-slate-200">
@@ -48,13 +55,13 @@ export default function MiniPitch({
               style={{ top, left }}
             >
               <span
-                className={`flex h-4 w-4 items-center justify-center rounded-full text-[7px] font-bold ring-1 ring-white ${
+                className={`flex items-center justify-center rounded-full font-bold ring-1 ring-white ${tokenClass} ${
                   filled?.playerName ? "bg-brand text-white" : "bg-white/70 text-slate-500"
                 }`}
               >
                 {slot.label.slice(0, 2)}
               </span>
-              <span className="mt-px max-w-[52px] truncate text-[7px] font-medium text-white">
+              <span className={nameClass}>
                 {filled?.playerName ? lastName(filled.playerName) : ""}
               </span>
             </div>

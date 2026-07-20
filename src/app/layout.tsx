@@ -4,6 +4,7 @@ import "./globals.css";
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
 import NextFixtureBanner from "@/components/NextFixtureBanner";
+import { siteUrl } from "@/lib/siteUrl";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,6 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  // metadataBase makes social preview images resolve to absolute URLs, which
+  // Facebook and X require. Without it, shared links show no picture.
+  metadataBase: new URL(siteUrl()),
   title: "The Blues Collective",
   description:
     "An unofficial community for Chelsea fans — build lineups, debate, and predict.",

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useTransition } from "react";
 import { timeAgo } from "@/lib/timeAgo";
 import { toggleRebuildVote, deleteRebuild, voteOnFee } from "@/app/transfers/actions";
@@ -79,7 +80,14 @@ export default function RebuildCard({
 
       <header className="flex items-center gap-2">
         <div className="flex-1">
-          <h3 className="font-bold text-brand-dark">{rebuild.title}</h3>
+          <h3 className="font-bold text-brand-dark">
+            <Link
+              href={`/transfers/rebuilds/${rebuild.id}`}
+              className="hover:underline"
+            >
+              {rebuild.title}
+            </Link>
+          </h3>
           <p className="text-xs text-slate-500">
             @{rebuild.ownerName}
             {rebuild.isDemo && (

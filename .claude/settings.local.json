@@ -17,7 +17,9 @@
       "Bash(npm run:*)",
       "Bash(node -e ':*)",
       "Bash(node scripts/migrate-squad.mjs)",
-      "Bash(node scripts/sync-pl-players.mjs)"
+      "Bash(node scripts/sync-pl-players.mjs)",
+      "Bash(grep -oE 'property=\"og:image\" content=\"[^\"]+\"' __TRACKED_VAR__/lineup.html)",
+      "Bash(grep -viE \"^\\\\s*$\")"
     ]
   }
 }
